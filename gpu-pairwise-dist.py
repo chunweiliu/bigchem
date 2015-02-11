@@ -36,15 +36,24 @@ out[o] = sqrtf(s);
 
 gpuPdist = mod.get_function("gpuPdist")
 
-num_element = 1
-num_feature = 1
+# num_element = numpy.int32(10)
+# num_feature = numpy.int32(10)
+num_element = 10
+num_feature = 10
+
+# num_element = num_element.astype(numpy.float32) # num_element.astype(numpy.int32)
+# num_feature = num_feature.astype(numpy.float32)
+# num_feature.astype(numpy.int32)
 a = numpy.random.randn(num_element, num_feature).astype(numpy.float32)
 # b = numpy.random.randn(400).astype(numpy.float32)
 
 dest = numpy.zeros_like(a)
-gpuPdist(drv.Out(dest), drv.In(a), drv.In(num_element), drv.In(num_feature),
-         block=(400, 1, 1), grid=(1, 1))
+gpuPdist(drv.Out(dest), drv.In(a), numpy.int32(num_element), numpy.int32(num_feature),
+         block=(1, 1, 1), grid=(1, 1))
+# gpuPdist(drv.Out(dest), drv.In(a),
+#          block=(10, 1, 1), grid=(1, 1))
 
+print dest
 # ans = sum(((a - b)*(a - b)) ** 0.5)
 # print numpy.sum(dest) - ans
 # print dest-a*b
