@@ -5,6 +5,9 @@ import math
 
 from pycuda.compiler import SourceModule
 mod = SourceModule("""
+/**
+ * GPU Pairwise distance calculation from Chang_etal_CBB2008_634-017
+ */
 __global__ void
 gpuPdist(float *out, float *in, int n, int m){
 __shared__ float Ys[16][16];
