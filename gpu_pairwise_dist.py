@@ -37,26 +37,16 @@ out[o] = sqrtf(s);
 }
 """)
 
-gpuPdist = mod.get_function("gpuPdist")
+def GPUpairwise(a):
+    gpuPdist = mod.get_function("gpuPdist");
+    a = a.astype(numpy.float32);
+    dest = numpy.zeros_like(a);
+    num_elements = numpy.int32(a.shape[0]);
+    num_features = numpy.int32(a.shape[1]);
+    gpuPdist(drv.Out(dest), drv.In(a), num_elements, num_features, block=(1,1,1), grid=(1,1));
+    return dest;
 
-# num_element = numpy.int32(10)
-# num_feature = numpy.int32(10)
-num_element = 10
-num_feature = 10
-
-# num_element = num_element.astype(numpy.float32) # num_element.astype(numpy.int32)
-# num_feature = num_feature.astype(numpy.float32)
-# num_feature.astype(numpy.int32)
-a = numpy.random.randn(num_element, num_feature).astype(numpy.float32)
-# b = numpy.random.randn(400).astype(numpy.float32)
-
-dest = numpy.zeros_like(a)
-gpuPdist(drv.Out(dest), drv.In(a), numpy.int32(num_element), numpy.int32(num_feature),
-         block=(1, 1, 1), grid=(1, 1))
-# gpuPdist(drv.Out(dest), drv.In(a),
-#          block=(10, 1, 1), grid=(1, 1))
-
-print dest
-# ans = sum(((a - b)*(a - b)) ** 0.5)
-# print numpy.sum(dest) - ans
-# print dest-a*b
+if "__main__":
+    a = numpy.random.randn(10, 10);
+    out = GPUpairwise(a);
+    print out;
