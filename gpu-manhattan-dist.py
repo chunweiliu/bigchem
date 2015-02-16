@@ -4,12 +4,12 @@ import numpy
 import math
 
 from pycuda.compiler import SourceModule
+
 mod = SourceModule("""
 /**
  * GPU Manhattan distance calculation from Chang_etal_SNPD2009
  */
-__global__ void
-gpuManhattan(float *out, float *in, int n, int m){
+__global__ void gpuManhattan(float *out, float *in, int n, int m){
     __shared__ float Xs[16][16];
     __shared__ float Ys[16][16];
     int bx = blockIdx.x, by = blockIdx.y;
@@ -17,17 +17,16 @@ gpuManhattan(float *out, float *in, int n, int m){
     int xBegin = bx * 16 * m;
     int yBegin = by * 16 * m;
     int yEnd = yBegin + m - 1, y, x, k, o;
-    int x, y, k, o;
     float s = 0.0;
 
     for (y = yBegin, x = xBegin; y <= yEnd; y += 16, x += 16){
-        Ys[ty][tx] = in[y + ty*m + tx];
-         Xs[tx][ty] = in[x + ty*m + tx];
+        Ys[ty][tx] = in[y + ty * m + tx];
+         Xs[tx][ty] = in[x + ty * m + tx];
          //*** note the transpose of Xs
          __syncthreads();
 
-         for(k = 0; k < 16; k++){
-             s += fabs(Ys[ty][k] - Xs[k][tx];
+         for(k = 0; k < 16; k++) {
+             s += fabs(Ys[ty][k] - Xs[k][tx]);
         }
         __syncthreads();
     }
@@ -36,7 +35,7 @@ gpuManhattan(float *out, float *in, int n, int m){
 }
 """)
 
-gpuPdist = mod.get_function("gpuPdist")
+gpuManhattan = mod.get_function("gpuManhattan")
 
 num_element = 10
 num_feature = 10
