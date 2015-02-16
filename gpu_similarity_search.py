@@ -12,15 +12,18 @@ __global__ void ssd(float *dest, float *a, float *b)
 }
 """)
 
-ssd = mod.get_function("ssd")
+def GPUssd(a, b):
+    a = a.astype(numpy.float32);
+    b = b.astype(numpy.float32);
+    ssd = mod.get_function("ssd");
+    dest = numpy.zeros_like(a);
+    ssd(drv.Out(dest), drv.In(a), drv.In(b), block=(400, 1, 1), grid=(1, 1));
+    return dest;
 
-a = numpy.random.randn(400).astype(numpy.float32)
-b = numpy.random.randn(400).astype(numpy.float32)
+if "__main__":
+    a = numpy.random.randn(400);
+    b = numpy.random.randn(400);
+    dest = GPUssd(a, b);
+    ans = sum(((a - b)*(a - b)) ** 0.5)
+    print numpy.sum(dest) - ans  # difference of double and float
 
-dest = numpy.zeros_like(a)
-ssd(drv.Out(dest), drv.In(a), drv.In(b),
-    block=(400, 1, 1), grid=(1, 1))
-
-ans = sum(((a - b)*(a - b)) ** 0.5)
-print numpy.sum(dest) - ans  # difference of double and float
-# print dest-a*b
