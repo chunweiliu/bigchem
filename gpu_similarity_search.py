@@ -5,20 +5,39 @@ import math
 
 from pycuda.compiler import SourceModule
 mod = SourceModule("""
-__global__ void ssd(float *dest, float *a, float *b)
+__global__ void ssd(int *dest, int *a, int *b)
 {
   const int i = threadIdx.x;
-  dest[i] = sqrt((a[i] - b[i]) * (a[i] - b[i]));
+  // change the below calculation to use popcount implementation that Olex is sending
+  dest[i] = (*a - b[i]) * (*a - b[i]);
 }
 """)
 
-def GPUssd(a, b):
-    a = a.astype(numpy.float32);
-    b = b.astype(numpy.float32);
+def GPUssd(a, b, cutoff=0, count):
+    a = a.astype(numpy.int32);
+    b = b.astype(numpy.int32);
     ssd = mod.get_function("ssd");
-    dest = numpy.zeros_like(a);
-    ssd(drv.Out(dest), drv.In(a), drv.In(b), block=(400, 1, 1), grid=(1, 1));
-    return dest;
+    output = [];
+    for record in a:
+        # check size of memory in GPU
+        # if less than size of b, continue
+        # else, break b into
+        dest = numpy.zeros_like(b);
+        ssd(drv.Out(dest), drv.In(a), drv.In(b), block=(400, 1, 1), grid=(1, 1));
+        # format dest to be a tuple with record id and similarity metric
+        # ...
+        output.append(dest);
+
+    # remove results less than cutoff
+    #...
+   # if cutoff != 0:
+        # linear time remove items less than cutoff
+    # if count is None:
+    # continue?
+    # if count < len(a) * len(b):
+        # depending on count... linear time or sort
+
+    return output;
 
 if "__main__":
     a = numpy.random.randn(400);
