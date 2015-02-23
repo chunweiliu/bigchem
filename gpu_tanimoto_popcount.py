@@ -6,15 +6,15 @@ import math;
 from pycuda.compiler import SourceModule;
 
 mod = SourceModule("""
-        __global__ void tanimoto_popcount(unsigned long long query, unsigned long long *target, double *out)
+        __global__ void tanimoto_popcount(unsigned long long *query, unsigned long long *target, double *out)
         {
             int a = 0, b = 0, c = 0;
-            int idy = blockDim.y * blockIdx.y + threadIdx.y;
-            int idx = blockDim.x * blockIdx.x + threadIdx.x;
-            a = __popcll(query);
+            int idy = (blockDim.y * blockIdx.y + threadIdx.y);
+            int idx = (blockDim.x * blockIdx.x + threadIdx.x);
+            a = __popcll(query[idy]);
             b = __popcll(target[idx]);
-            c = __popcll(query & target[idx]);
-            out[idx] = ((double) c) / ((double) a + b - c);
+            c = __popcll(query[idy] & target[idx]);
+            out[idx + idy * blockDim.x] = ((double) c) / ((double) a + b - c);
         }
 """);
 
@@ -25,22 +25,18 @@ def GPUtanimoto(query, target, cutoff=0, count=None):
     tanimoto = mod.get_function("tanimoto_popcount");
 
     output = [];
-    for q in query:
-        q = np.array(q).astype(np.uint64);
-        # check size of GPU memory
-        dest = np.zeros((len(target)), np.float64);
-        print q;
-        print target;
-        print dest;
+    # check size of GPU memory
+    dest = np.zeros((len(query), len(target)), np.float64);
+    print query;
+    print target;
+    print dest;
 
-        threads_per_block = 1024;
-        blocks_per_mp = 4;
+    threads_per_block = 1024;
+    blocks_per_mp = 4;
 
-        #tanimoto(drv.In(q), drv.In(target), drv.Out(dest), block=(64, 2, 1), grid=(1, 1));
-        tanimoto(q, drv.In(target), drv.Out(dest), block=(64, 2, 1), grid=(1, 1));
-        print dest;
-        output.append(dest);
-    return output;
+    #tanimoto(drv.In(q), drv.In(target), drv.Out(dest), block=(64, 2, 1), grid=(1, 1));
+    tanimoto(drv.In(query), drv.In(target), drv.Out(dest), block=(len(target), len(query), 1), grid=(1, 1));
+    return dest;
 
 if "__main__":
     target = np.arange(2048, 2056);
