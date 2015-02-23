@@ -6,7 +6,7 @@ import math;
 from pycuda.compiler import SourceModule;
 
 mod = SourceModule("""
-        __global__ void tanimoto_popcount(unsigned long long query, unsigned long long *target, int *out)
+        __global__ void tanimoto_popcount(unsigned long long query, unsigned long long *target, double *out)
         {
             int a = 0, b = 0, c = 0;
             int idy = blockDim.y * blockIdx.y + threadIdx.y;
@@ -14,7 +14,7 @@ mod = SourceModule("""
             a = __popcll(query);
             b = __popcll(target[idx]);
             c = __popcll(query & target[idx]);
-            out[idx] = b;//((double) c) / ((double) a + b - c);
+            out[idx] = ((double) c) / ((double) a + b - c);
         }
 """);
 
@@ -26,17 +26,18 @@ def GPUtanimoto(query, target, cutoff=0, count=None):
 
     output = [];
     for q in query:
-        q = np.arange(q, q+1);
+        q = np.array(q).astype(np.uint64);
         # check size of GPU memory
-        dest = np.zeros((len(target)), np.int32);
-        print query;
+        dest = np.zeros((len(target)), np.float64);
+        print q;
         print target;
         print dest;
 
         threads_per_block = 1024;
         blocks_per_mp = 4;
 
-        tanimoto(drv.In(q), drv.In(target), drv.Out(dest), block=(64, 2, 1), grid=(1, 1));
+        #tanimoto(drv.In(q), drv.In(target), drv.Out(dest), block=(64, 2, 1), grid=(1, 1));
+        tanimoto(q, drv.In(target), drv.Out(dest), block=(64, 2, 1), grid=(1, 1));
         print dest;
         output.append(dest);
     return output;
