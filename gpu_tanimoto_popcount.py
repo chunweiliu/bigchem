@@ -6,15 +6,18 @@ import math;
 from pycuda.compiler import SourceModule;
 
 mod = SourceModule("""
-        __global__ void tanimoto_popcount(unsigned long long *query, unsigned long long *target, double *out)
+        __global__ void tanimoto_popcount(unsigned long long *query, int query_len, unsigned long long *target, int target_len, double *out)
         {
             int a = 0, b = 0, c = 0;
             int idy = (blockDim.y * blockIdx.y + threadIdx.y);
             int idx = (blockDim.x * blockIdx.x + threadIdx.x);
-            a = __popcll(query[idy]);
-            b = __popcll(target[idx]);
-            c = __popcll(query[idy] & target[idx]);
-            out[idx + idy * blockDim.x] = ((double) c) / ((double) a + b - c);
+            if (idy < query_len && idx < target_len) {
+                a = __popcll(query[idy]);
+                b = __popcll(target[idx]);
+                c = __popcll(query[idy] & target[idx]);
+
+                out[idx + idy * blockDim.x] = ((double) c) / ((double) a + b - c);
+            }
         }
 """);
 
@@ -31,15 +34,23 @@ def GPUtanimoto(query, target, cutoff=0, count=None):
     print target;
     print dest;
 
-    threads_per_block = 1024;
-    blocks_per_mp = 4;
+    threads_per_block = 32;
 
-    #tanimoto(drv.In(q), drv.In(target), drv.Out(dest), block=(64, 2, 1), grid=(1, 1));
-    tanimoto(drv.In(query), drv.In(target), drv.Out(dest), block=(len(target), len(query), 1), grid=(1, 1));
+    dx, mx = divmod(len(target), threads_per_block);
+    dy, my = divmod(len(query), threads_per_block);
+
+    bdim = (threads_per_block, threads_per_block, 1);
+    gdim = ((dx + (mx > 0)), (dy + (my > 0)));
+
+    print bdim;
+    print gdim;
+
+    tanimoto(drv.In(query), np.int32(len(query)), drv.In(target), np.int32(len(target)), drv.Out(dest), block=bdim, grid=gdim);
     return dest;
 
 if "__main__":
+    query = np.arange(0, 2048);
     target = np.arange(2048, 2056);
-    dest = GPUtanimoto(np.arange(2048, 2050), target);
+    dest = GPUtanimoto(query, target);
     print dest;
 
