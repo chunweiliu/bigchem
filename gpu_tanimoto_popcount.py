@@ -3,6 +3,7 @@ import pycuda.driver as drv;
 import numpy as np;
 import math;
 
+from operator import itemgetter;
 from pycuda.compiler import SourceModule;
 
 mod = SourceModule("""
@@ -28,36 +29,39 @@ mod = SourceModule("""
 def GPUtanimoto(query, target, cutoff=0, count=None):
     query = query.astype(np.uint64);
     target = target.astype(np.uint64);
-
     tanimoto = mod.get_function("tanimoto_popcount");
 
-    output = [];
-    # check size of GPU memory
+    # TODO check size of GPU memory
+    # Output array
     dest = np.zeros((len(query), len(target)), np.float64);
-
-    threads_per_block = 32; # dependent on hardware
-
+    # Determine the block and grid sizes
+    threads_per_block = 32; # constant dependent on hardware
     dx, mx = divmod(len(target), threads_per_block);
     dy, my = divmod(len(query), threads_per_block);
-
     bdim = (threads_per_block, threads_per_block, 1);
     gdim = ((dx + (mx > 0)), (dy + (my > 0)));
-
-    print("Input query: " + str(query));
-    print("Query length: " + str(len(query)));
-    print("Target data: " + str(target));
-    print("Target length: " + str(len(target)));
-    print("Data length: " + str(len(query[0])));
-    print("Block dimension: " + str(bdim));
-    print("Grid dimension: " + str(gdim));
-
+    # Call the CUDA
     tanimoto(drv.In(query), np.int32(len(query)), drv.In(target), np.int32(len(target)), np.int32(len(query[0])), drv.Out(dest), block=bdim, grid=gdim);
-    return dest;
+    # Remove elements less than the cutoff
+    data_subset = [];
+    array_index = 0;
+    for target_score in dest:
+        for query_score in target_score:
+            if (query_score >= cutoff):
+                # Append the tuple (original index in array, similarity score) to the list
+                data_subset.append((array_index, query_score));
+            array_index += 1;
+    # Get the first count items
+    if (count is not None):
+        # sort on the similarity score field (item 1)
+        data_subset.sort(key=itemgetter(1));
+        data_subset = data_subset[-count-1:-1];
+    return data_subset;
 
 if "__main__":
 
-    query_range = range(2048, 2050);
-    target_range = range(0, 2050);
+    query_range = range(2**16, 2**16+7);
+    target_range = range(2**16, 2**18);
 
     query = np.array([[x for x in range(y, y + 6)] for y in query_range], np.uint64);
     target = np.array([[x for x in range(y, y + 6)] for y in target_range], np.uint64);
@@ -65,6 +69,12 @@ if "__main__":
     # query = np.array([[0xFFF], [0x111], [0x222]]);
     # target = query;
 
-    output = GPUtanimoto(query, target);
-    print output;
+    print("Input query:\n" + str(query));
+    print("Number of queries: " + str(len(query)));
+    print("Target data:\n" + str(target));
+    print("Number of targets: " + str(len(target)));
+    print("Data length: " + str(len(query[0])));
+
+    output = GPUtanimoto(query, target, 0, 10);
+    print("Output:\n" + str(output));
 
