@@ -2,28 +2,35 @@ import pycuda.autoinit;
 import pycuda.driver as drv;
 import numpy as np;
 import math;
+import time;
 
 from operator import itemgetter;
 from pycuda.compiler import SourceModule;
 
 mod = SourceModule("""
-        __global__ void tanimoto_popcount(unsigned long long *query, int query_len, unsigned long long *target, int target_len, int length_of_data, double *out)
-        {
-            int a = 0, b = 0, c = 0;
-            int idy = (blockDim.y * blockIdx.y + threadIdx.y);
-            int idx = (blockDim.x * blockIdx.x + threadIdx.x);
-            if (idy < query_len && idx < target_len) {
-                for (int i = 0; i < length_of_data; i++) {
-                    a += __popcll(query[idy * length_of_data + i]);
-                    b += __popcll(target[idx * length_of_data + i]);
-                    c += __popcll(query[idy * length_of_data + i] & target[idx * length_of_data + i]);
-                }
-          /*      if (a + b == c)
-                    out[idx + idy * target_len] = 1.0; // ask about this
-                else*/
-                    out[idx + idy * target_len] = ((double) c) / ((double) a + b - c);
-            }
+    __device__ double similarity(unsigned long long *query, unsigned long long *target, int data_len)
+    {
+        int a = 0, b = 0, c = 0;
+        for (int i = 0; i < data_len; i++) {
+            a += __popcll(query[i]);
+            b += __popcll(target[i]);
+            c += __popcll(query[i] & target[i]);
         }
+        /* Need to handle edge cases
+        if (a + b == c)
+            return 1.0; // ask about this
+        else */
+            return (double) c / (a + b - c);
+    }
+
+    __global__ void tanimoto_popcount(unsigned long long *query, int query_len, unsigned long long *target, int target_len, int data_len, double *out)
+    {
+        int idx = blockDim.x * blockIdx.x + threadIdx.x;
+        int idy = blockDim.y * blockIdx.y + threadIdx.y;
+        if (idx < target_len && idy < query_len) {
+            out[idx + idy * target_len] = similarity(&query[idy * data_len], &target[idx * data_len], data_len);
+       }
+    }
 """);
 
 def GPUtanimoto(query, target, cutoff=0, count=None):
@@ -41,7 +48,12 @@ def GPUtanimoto(query, target, cutoff=0, count=None):
     bdim = (threads_per_block, threads_per_block, 1);
     gdim = ((dx + (mx > 0)), (dy + (my > 0)));
     # Call the CUDA
+    start_time = time.time();
     tanimoto(drv.In(query), np.int32(len(query)), drv.In(target), np.int32(len(target)), np.int32(len(query[0])), drv.Out(dest), block=bdim, grid=gdim);
+    print "total time time:", time.time() - start_time, "seconds"
+    print "Similarity speed", len(query)*len(target)/(time.time() - start_time), "Tanimoto/second"
+
+
     # Remove elements less than the cutoff
     data_subset = [];
     array_index = 0;
@@ -60,11 +72,11 @@ def GPUtanimoto(query, target, cutoff=0, count=None):
 
 if "__main__":
 
-    query_range = range(2**16, 2**16+7);
-    target_range = range(2**16, 2**18);
+    query_range = range(2**0, 2**3);
+    target_range = range(2**0, 2**3);
 
-    query = np.array([[x for x in range(y, y + 6)] for y in query_range], np.uint64);
-    target = np.array([[x for x in range(y, y + 6)] for y in target_range], np.uint64);
+    query = np.array([[x for x in range(y, y + 16)] for y in query_range], np.uint64);
+    target = np.array([[x for x in range(y, y + 16)] for y in target_range], np.uint64);
 
     # query = np.array([[0xFFF], [0x111], [0x222]]);
     # target = query;
@@ -75,6 +87,6 @@ if "__main__":
     print("Number of targets: " + str(len(target)));
     print("Data length: " + str(len(query[0])));
 
-    output = GPUtanimoto(query, target, 0, 10);
+    output = GPUtanimoto(query, target);
     print("Output:\n" + str(output));
 
