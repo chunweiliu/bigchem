@@ -20,18 +20,11 @@ def tanimoto_matrix_multiplication(vector, matrix):
     return neighbors
 
 
-if __name__ == "__main__":
+def run(path_to_data, chunks):
     # Generate a query
-    mol = Chem.MolFromSmiles("CCCN(N=C)C(C)C(=O)NO")
-    fp_ref = Chem.RDKFingerprint(
-        mol, maxPath=5, fpSize=1024, nBitsPerHash=2).ToBitString()
-    a = np.array(map(int, fp_ref))
-
-    # size of the batch of data
-    chunks=10000
 
     # Read a subset of the entire data set
-    store = pd.HDFStore('/data/bigchem/data/example50K.h5', )
+    store = pd.HDFStore(path_to_data, )
     workingSet = store.select('data', start=0, stop=chunks)
     #print workingSet.head(5)
 
@@ -43,10 +36,16 @@ if __name__ == "__main__":
     #    lambda x: TanimotoSimilarity(a, x))  # Imporve the similarity function
 
     #new way
-    similarity = tanimoto_matrix_multiplication(workingSet.values[0], workingSet.values)
+    similarity = [];
+    for v in workingSet.values:
+        similarity.append(tanimoto_matrix_multiplication(v, workingSet.values))
 
     total_time = time.time() - start_time
     print "---------------------------------------"
     print "total time: %.3f seconds" % total_time
     print "Similarity speed %.3f Tanimoto/sec." % (len(workingSet)/total_time)
     print "---------------------------------------"
+    return similarity
+
+if __name__ == "__main__":
+    print run('/data/bigchem/data/example50K.h5', 10000);

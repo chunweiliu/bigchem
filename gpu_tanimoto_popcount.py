@@ -1,4 +1,5 @@
 import pycuda.driver as drv
+import pycuda.autoinit
 import numpy as np
 import time
 
@@ -18,7 +19,7 @@ mod = SourceModule("""
     if (a + b == c) {
       return 1.0; // ask about this
     }
-    else {
+    else*/ {
       return (double) c / (a + b - c);
     }
   }
@@ -51,10 +52,10 @@ def GPUtanimoto(query, target, cutoff=0, count=None):
     bdim = (threads_per_block, threads_per_block, 1)
     gdim = ((dx + (mx > 0)), (dy + (my > 0)))
     # Call the CUDA
-    start_time = time.time();
-    tanimoto(drv.In(query), np.int32(len(query)), drv.In(target), np.int32(len(target)), np.int32(len(query[0])), drv.Out(dest), block=bdim, grid=gdim);
+    start_time = time.time()
+    tanimoto(drv.In(query), np.int32(len(query)), drv.In(target), np.int32(len(target)), np.int32(len(query[0])), drv.Out(dest), block=bdim, grid=gdim)
 
-    total_time = time.time() - start_time;
+    total_time = time.time() - start_time
     print "---------------------------------------"
     print "total time: %.3f seconds" % total_time
     print "Similarity speed %.3f Tanimoto/sec." % ((len(query)*len(target))/total_time)
