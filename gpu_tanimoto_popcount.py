@@ -50,9 +50,12 @@ def GPUtanimoto(query, target, cutoff=0, count=None):
     # Call the CUDA
     start_time = time.time();
     tanimoto(drv.In(query), np.int32(len(query)), drv.In(target), np.int32(len(target)), np.int32(len(query[0])), drv.Out(dest), block=bdim, grid=gdim);
-    print "total time time:", time.time() - start_time, "seconds"
-    print "Similarity speed", len(query)*len(target)/(time.time() - start_time), "Tanimoto/second"
 
+    total_time = time.time() - start_time;
+    print "---------------------------------------"
+    print "total time: %.3f seconds" % total_time
+    print "Similarity speed %.3f Tanimoto/sec." % ((len(query)*len(target))/total_time)
+    print "---------------------------------------"
 
     # Remove elements less than the cutoff
     data_subset = [];
@@ -70,7 +73,7 @@ def GPUtanimoto(query, target, cutoff=0, count=None):
         data_subset = data_subset[-count-1:-1];
     return data_subset;
 
-if "__main__":
+if __name__ == "__main__":
 
     query_range = range(2**0, 2**3);
     target_range = range(2**0, 2**3);

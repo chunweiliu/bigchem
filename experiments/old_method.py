@@ -27,9 +27,12 @@ if __name__ == "__main__":
         mol, maxPath=5, fpSize=1024, nBitsPerHash=2).ToBitString()
     a = np.array(map(int, fp_ref))
 
+    # size of the batch of data
+    chunks=10000
+
     # Read a subset of the entire data set
     store = pd.HDFStore('/data/bigchem/data/example50K.h5', )
-    workingSet = store.select('data', start=0, stop=10000)
+    workingSet = store.select('data', start=0, stop=chunks)
     #print workingSet.head(5)
 
     # Timing the performance
@@ -40,10 +43,10 @@ if __name__ == "__main__":
     #    lambda x: TanimotoSimilarity(a, x))  # Imporve the similarity function
 
     #new way
-    similarity = tanimoto_matrix_multiplication(a, workingSet.values)
+    similarity = tanimoto_matrix_multiplication(workingSet.values[0], workingSet.values)
 
     total_time = time.time() - start_time
     print "---------------------------------------"
-    print "total time time: %.3f seconds" % total_time
+    print "total time: %.3f seconds" % total_time
     print "Similarity speed %.3f Tanimoto/sec." % (len(workingSet)/total_time)
     print "---------------------------------------"
