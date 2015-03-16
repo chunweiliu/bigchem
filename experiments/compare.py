@@ -10,6 +10,6 @@ exit()
 print "Comparing", len(old_out), "results"
 for i in range(len(old_out[0])):
     for j in range(len(old_out)):
-        if (abs(old_out[j][i] - new_out[i * len(old_out[i]) + j][1]) > similarity_bound):
+        if (abs(old_out[i][j] - new_out[i * len(old_out[i]) + j][1]) > similarity_bound):
             print "comparison of index", (i, j), "differs by more than", similarity_bound
 
