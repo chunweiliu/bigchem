@@ -43,21 +43,21 @@ def GPUtanimoto(query, target, cutoff=0, count=None):
     tanimoto = mod.get_function("tanimoto_popcount")
 
     # ensure target is always larger than query
-    swapped = False;
-    if (len(query) > len(target)):
-        query, target = target, query;
-        swapped = True;
+#    swapped = False;
+#    if (len(query) > len(target)):
+#        query, target = target, query;
+#        swapped = True;
 
     # TODO check size of GPU memory
-    free_bytes = drv.mem_get_info()[0]; # get free memory in bytes
+#    free_bytes = drv.mem_get_info()[0]; # get free memory in bytes
     query_size = len(query)
     target_size = len(target)
-    if (free_bytes < query_size * target_size * 8): # if free memory is less than size of output
-        if (target_size > free_bytes / 8):
-            target_size = 1
-            # make query_size smaller
-        else:
-            target_size = free_bytes / 8
+#    if (free_bytes < query_size * target_size * 8): # if free memory is less than size of output
+#        if (target_size > free_bytes / 8):
+#            target_size = 1
+#            # make query_size smaller
+#        else:
+#            target_size = free_bytes / 8
 # TODO
 
     # Output array
@@ -79,8 +79,9 @@ def GPUtanimoto(query, target, cutoff=0, count=None):
     print "---------------------------------------"
 
     # transpose the output if we swapped target and query arrays
-    if (swapped):
-        dest = dest.T;
+#    if (swapped):
+#        dest = dest.T;
+
 
     # Remove elements less than the cutoff
     data_subset = []

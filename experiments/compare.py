@@ -14,8 +14,8 @@ def old_method(begin_query, end_query, begin_target, end_target):
 
     # timing
     start_time = time.time()
-    for v in query.values:
-        similarity.append(tanimoto_matrix_multiplication(v, target.values))
+    for t in target.values:
+        similarity.append(tanimoto_matrix_multiplication(t, query.values))
     total_time = time.time() - start_time
 
     print "---------------------------------------"
@@ -39,13 +39,20 @@ def new_method(begin_query, end_query, begin_target, end_target):
     store = pd.HDFStore(new_data, )
     query = store.select('data', start=begin_query, stop=end_query)
     target = store.select('data', start=begin_target, stop=end_target)
+
+    if (len(query) < N * (end_query - begin_query) or len(target) < N * (end_target - begin_target)):
+        print("Warning: did not read all requested entries.")
+
     query_fp = np.empty((end_query - begin_query, N), dtype=np.uint64)
     query_fp = query['RDK5FPhex'].apply(lambda x: fphex2int64(x, N))
     target_fp = np.empty((end_target - begin_target, N), dtype=np.uint64)
     target_fp = target['RDK5FPhex'].apply(lambda x: fphex2int64(x, N))
 
-    merged_query = np.reshape(list(itertools.chain.from_iterable(query_fp.values)), (end_query - begin_query, N))
-    merged_target = np.reshape(list(itertools.chain.from_iterable(target_fp.values)), (end_target - begin_target, N))
+    query_list = list(itertools.chain.from_iterable(query_fp.values))
+    target_list = list(itertools.chain.from_iterable(target_fp.values))
+
+    merged_query = np.reshape(query_list, (end_query - begin_query, N))
+    merged_target = np.reshape(target_list, (end_target - begin_target, N))
 
     similarity = GPUtanimoto(merged_query, merged_target)
     return similarity
@@ -60,16 +67,17 @@ def fphex2int64(x, length):
 
 
 if __name__ == "__main__":
-    old_out = old_method(0, 100, 0, 100)
-    new_out = new_method(0, 100, 0, 100)
+    old_out = old_method(0, 10, 0, 7)
+    new_out = new_method(0, 10, 0, 7)
 
-    similarity_bound = 0.0000001
+    print old_out;
+    print new_out;
+    similarity_bound = 0.0001
 
-    exit()
-    print "Comparing", len(old_out), "results"
-    for i in range(len(old_out[0])):
-        for j in range(len(old_out)):
+    print "Comparing", len(old_out[0]) * len(old_out), "results"
+    for i in range(len(old_out)):
+        for j in range(len(old_out[i])):
             if (abs(old_out[i][j] - new_out[i * len(old_out[i]) + j][1]) > similarity_bound):
-                print "comparison of index", (i, j), "differs by more than", similarity_bound
+                print "comparison at index", (i, j), "differs by more than", similarity_bound
 
 
