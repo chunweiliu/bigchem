@@ -29,9 +29,9 @@ mod = SourceModule("""
                                     int data_len, double *out) {
     int idx = blockDim.x * blockIdx.x + threadIdx.x;
     int idy = blockDim.y * blockIdx.y + threadIdx.y;
-    if (idx < query_len && idy < target_len) {
-      out[idx + idy * query_len] =
-      similarity(&query[idx * data_len], &target[idy * data_len], data_len);
+    if (idy < query_len && idx < target_len) {
+      out[idy + idx * query_len] =
+      similarity(&query[idy * data_len], &target[idx * data_len], data_len);
     }
   }
 """)
@@ -61,7 +61,7 @@ def GPUtanimoto(query, target, cutoff=0, count=None):
 # TODO
 
     # Output array
-    dest = np.zeros((len(query), len(target)), np.float64)
+    dest = np.zeros((len(target), len(query)), np.float64)
     # Determine the block and grid sizes
     threads_per_block = 32  # constant dependent on hardware
     dx, mx = divmod(len(target), threads_per_block)
@@ -81,7 +81,7 @@ def GPUtanimoto(query, target, cutoff=0, count=None):
     # transpose the output if we swapped target and query arrays
 #    if (swapped):
 #        dest = dest.T;
-
+    print dest
 
     # Remove elements less than the cutoff
     data_subset = []
