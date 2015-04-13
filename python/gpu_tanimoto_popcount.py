@@ -2,12 +2,18 @@ import pycuda.driver as drv
 import pycuda.autoinit
 import numpy as np
 import time
+import pandas as pd
 
 from operator import itemgetter
 from pycuda.compiler import SourceModule
 
-#Define the CUDA kernel and subroutines
-mod = SourceModule("""
+"""
+The CUDA kernel and subroutines for computing the
+tanimoto similarity. Prepare this variable to be
+used as a function by calling:
+funct = cuda_popcount.get_function("tanimoto_popcount")
+"""
+cuda_popcount = SourceModule("""
   __device__ float similarity(unsigned long long *query,
                                unsigned long long *target, int data_len) {
     int a = 0, b = 0, c = 0;
@@ -38,12 +44,34 @@ mod = SourceModule("""
 
 def GPUtanimoto(query, target, cutoff=0, count=None):
     """
-    This function computes the pairwise tanimoto similarity between the query and target. Query and target should be appropriately formatted as a matrix where each row is a molecule and each column is a 64 bit unsigned integer that represents a chunk of its bit sequence. Cutoff removes values from the output that are less than it and count specifies the number of items to return.
+    Returns the pairwise similarity between query and
+    target as a list of tuples. Each tuple is (index,
+    similarity) where index is the location in the 2d
+    matrix: query X target.
+
+    == PARAMETERS ==
+    @param query: A matrix of np.uint64. Rows represent
+    individual molecules. Columns represent 64-bit chunks
+    of their bit string representations.
+
+    @param target: A matrix of np.uint64. Rows represent
+    individual molecules. Columns represent 64-bit chunks
+    of their bit string representations.
+
+    @param cutoff: A np.float32 that specifies a value
+    below which individual similarity computation results
+    should be omitted from the final set. (optional)
+
+    @param count: An integer that specifies that size of
+    the output set. (optional)
     """
+    # Make sure that the inputs are properly formatted
+    if (len(query) == 0 or len(target) == 0):
+        return []
     # We need to properly format the input as uint64 matrices
     query = query.astype(np.uint64)
     target = target.astype(np.uint64)
-    tanimoto = mod.get_function("tanimoto_popcount")
+    tanimoto = cuda_popcount.get_function("tanimoto_popcount")
 
     # CUDA kernel size parameters
     query_size = len(query)
@@ -51,14 +79,11 @@ def GPUtanimoto(query, target, cutoff=0, count=None):
     threads_per_block = 32  # constant dependent on hardware
 
     # List for gathering the output
-    output_vectors = []
-    array_index = 0
+    output = []
 
     not_enough_memory = True
     # Loop, reducing memory size until we can fit the job on the GPU
     while not_enough_memory:
-        print "query size", query_size
-        print "target size", target_size
         # Output array
         dest_in = np.zeros((target_size, query_size), dtype=np.float32)
         # Determine the block and grid sizes
@@ -84,14 +109,12 @@ def GPUtanimoto(query, target, cutoff=0, count=None):
 
                     tanimoto(drv.In(query_in), np.int32(len(query_in)), drv.In(target_in), np.int32(len(target_in)), np.int32(len(query_in[0])), drv.Out(dest_in), block=bdim, grid=gdim)
                     not_enough_memory = False
-                    print "done"
-                    output_vectors.append(dest_in)
+                    output.append(dest_in)
                     k = k + target_size
                 #endwhile
                 j = j + query_size
             #endwhile
         except pycuda._driver.MemoryError:
-            print "out of memory"
             # We could not fit the job on the GPU.
             # Reduce memory requirements:
             if (target_size > 1):
@@ -105,34 +128,11 @@ def GPUtanimoto(query, target, cutoff=0, count=None):
             #endif
         #endtry
     #endwhile
-
     total_time = time.time() - start_time
-    print "---------------------------------------"
-    print "total time: %.3f seconds" % total_time
-    print "Similarity speed %.3f Tanimoto/sec." % ((len(query)*len(target))/total_time)
-    print "---------------------------------------"
+    print "new_time %.3f" % total_time
+    print "new_speed %.3f" % ((len(query)*len(target))/total_time)
 
-    # gather the results
-    results = []
-    for out in output_vectors:
-        for row in out:
-            print "adding", array_index
-            for entry in row:
-                if entry >= cutoff:
-                    results.append((array_index, entry))
-                array_index = array_index + 1
-            #endfor
-        #endfor
-    #endfor
-
-    # Get the first count items
-    if (count is not None):
-        # sort on the similarity score field (item 1)
-        results.sort(key=itemgetter(1))
-        results = results[-count-1:-1]
-    #endif
-
-    return results
+    return output
 
 if __name__ == "__main__":
 
@@ -154,4 +154,3 @@ if __name__ == "__main__":
     print("Data length: " + str(len(query[0])))
 
     output = GPUtanimoto(query, target)
-    print("Output:\n" + str(output))

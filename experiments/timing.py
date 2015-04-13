@@ -19,11 +19,9 @@ def old_method(begin_query, end_query, begin_target, end_target):
             similarity.append(TanimotoSimilarity(t, q))
     total_time = time.time() - start_time
 
-    print "---------------------------------------"
-    print "total time: %.3f seconds" % total_time
-    print "Similarity speed %.3f Tanimoto/sec." % ((len(query) * len(target))/total_time)
-    print "---------------------------------------"
-
+    print "old_time %.3f" % total_time
+    print "old_speed %.3f" % ((len(query) * len(target))/total_time)
+    store.close()
     return similarity
 
 def tanimoto_matrix_multiplication(vector, matrix):
@@ -60,7 +58,7 @@ def new_method(begin_query, end_query, begin_target, end_target):
     merged_target = np.reshape(target_list, (end_target - begin_target, N))
 
     similarity = GPUtanimoto(merged_query, merged_target)
-
+    store.close()
     return similarity
 
 def hex2int64(x):
@@ -73,20 +71,10 @@ def fphex2int64(x, length):
 
 
 if __name__ == "__main__":
-#    old_out = old_method(0, 500, 0, 500)
-    new_out = new_method(0, 50000, 0, 50000)
-    similarity_bound = 0.0001
-    sys.exit(0)
-    print "Comparing", len(old_out), "results"
-    for i in range(len(old_out)):
-        errors_exist = False
-        count = 0
-        if (abs(old_out[i] - new_out[i][1]) > similarity_bound):
-            count = count + 1
-        #endif
+    for size in range(5000):
+        print 'size', size
+        old_out = old_method(0, size, 0, size)
+        new_out = new_method(0, size, 0, size)
     #endfor
-    if count > 0:
-        print count, "errors"
-    #endif
 #endif
 
