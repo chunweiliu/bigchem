@@ -128,11 +128,23 @@ def GPUtanimoto(query, target, cutoff=0, count=None):
             #endif
         #endtry
     #endwhile
+
+    #format output
+    formatted_output = [];
+    for matrix in output:
+        for row in matrix:
+            for element in row:
+                formatted_output.append(('we need to compute index', element));
+                #add_to_max_heap(element)
+            #endfor
+        #endfor
+    #endfor
+
     total_time = time.time() - start_time
     print "new_time %.3f" % total_time
     print "new_speed %.3f" % ((len(query)*len(target))/total_time)
 
-    return output
+    return formatted_output
 
 if __name__ == "__main__":
 

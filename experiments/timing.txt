@@ -1,0 +1,6580 @@
+size 0
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.000
+old_speed 0.000
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+size 1
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.003
+old_speed 373.957
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 949.797
+size 2
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.002
+old_speed 2616.126
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.000
+new_speed 8872.140
+size 3
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.003
+old_speed 2667.567
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.000
+new_speed 20593.964
+size 4
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.006
+old_speed 2678.355
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.000
+new_speed 37722.802
+size 5
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.009
+old_speed 2702.933
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.000
+new_speed 57614.066
+size 6
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.013
+old_speed 2702.709
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.000
+new_speed 83746.502
+size 7
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.018
+old_speed 2726.935
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.000
+new_speed 114496.321
+size 8
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.023
+old_speed 2727.587
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.000
+new_speed 153479.392
+size 9
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.030
+old_speed 2725.431
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 82661.466
+size 10
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.037
+old_speed 2733.657
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 154828.498
+size 11
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.044
+old_speed 2729.286
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 142679.444
+size 12
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.053
+old_speed 2735.564
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 172861.985
+size 13
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.062
+old_speed 2730.299
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 200917.624
+size 14
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.072
+old_speed 2726.085
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 231703.378
+size 15
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.082
+old_speed 2728.827
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 264420.958
+size 16
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.094
+old_speed 2723.636
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 302974.555
+size 17
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.106
+old_speed 2734.825
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 418272.552
+size 18
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.120
+old_speed 2707.469
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 438513.874
+size 19
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.132
+old_speed 2728.275
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 518720.022
+size 20
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.147
+old_speed 2727.488
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.000
+new_speed 854672.236
+size 21
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.162
+old_speed 2728.149
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 649469.124
+size 22
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.177
+old_speed 2730.913
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 700497.977
+size 23
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.194
+old_speed 2727.900
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 711149.621
+size 24
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.211
+old_speed 2727.131
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 850975.380
+size 25
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.229
+old_speed 2730.581
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 904256.640
+size 26
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.248
+old_speed 2729.691
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 969681.773
+size 27
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.268
+old_speed 2724.368
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 1047498.327
+size 28
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.287
+old_speed 2728.532
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 1139408.987
+size 29
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.308
+old_speed 2727.854
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 1164930.536
+size 30
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.330
+old_speed 2726.415
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 1274434.031
+size 31
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.352
+old_speed 2731.775
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 1357603.956
+size 32
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.375
+old_speed 2734.173
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 1446116.935
+size 33
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.399
+old_speed 2726.624
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 1485397.417
+size 34
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.424
+old_speed 2725.008
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 1562053.938
+size 35
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.449
+old_speed 2726.942
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 1554620.998
+size 36
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.475
+old_speed 2727.697
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 1775250.811
+size 37
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.502
+old_speed 2725.860
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 1909545.120
+size 38
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.529
+old_speed 2731.796
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 1951216.165
+size 39
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.553
+old_speed 2749.473
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 2163288.024
+size 40
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.493
+old_speed 3243.329
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 2406198.064
+size 41
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.557
+old_speed 3019.807
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 2334644.048
+size 42
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.650
+old_speed 2712.539
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 2367600.722
+size 43
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.648
+old_speed 2852.990
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 2747172.546
+size 44
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.646
+old_speed 2995.730
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 2738675.394
+size 45
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.740
+old_speed 2734.816
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 2751365.598
+size 46
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.738
+old_speed 2866.984
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 3139422.449
+size 47
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.680
+old_speed 3250.359
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 3277402.736
+size 48
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.709
+old_speed 3251.097
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 3469901.765
+size 49
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.738
+old_speed 3254.516
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 3414894.508
+size 50
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.853
+old_speed 2929.307
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 3448128.905
+size 51
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.952
+old_speed 2732.746
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 3598082.026
+size 52
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.990
+old_speed 2730.069
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 3744271.382
+size 53
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.916
+old_speed 3068.071
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 4029343.343
+size 54
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 0.896
+old_speed 3254.450
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 4294448.899
+size 55
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 1.042
+old_speed 2903.913
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 4022755.105
+size 56
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 1.140
+old_speed 2749.876
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 4665958.618
+size 57
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 1.130
+old_speed 2874.784
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 4433081.879
+size 58
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 1.204
+old_speed 2793.078
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 4917963.979
+size 59
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 1.203
+old_speed 2894.172
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 4788577.312
+size 60
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 1.318
+old_speed 2730.427
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 3287501.502
+size 61
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 1.362
+old_speed 2732.481
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 5063921.215
+size 62
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 1.412
+old_speed 2722.787
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 5174231.250
+size 63
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 1.461
+old_speed 2717.310
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 5415482.295
+size 64
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 1.499
+old_speed 2733.362
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 5649414.398
+size 65
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 1.548
+old_speed 2729.208
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 4332746.797
+size 66
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 1.595
+old_speed 2731.545
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 4523492.999
+size 67
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 1.641
+old_speed 2735.016
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 4529283.295
+size 68
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 1.692
+old_speed 2733.235
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 4506148.164
+size 69
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 1.743
+old_speed 2731.689
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 4923343.527
+size 70
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 1.793
+old_speed 2733.068
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 4984741.596
+size 71
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 1.845
+old_speed 2732.356
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 5218037.133
+size 72
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 1.896
+old_speed 2734.161
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 5394014.373
+size 73
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 1.950
+old_speed 2732.211
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 5557296.374
+size 74
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 2.004
+old_speed 2732.892
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 5716278.921
+size 75
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 2.059
+old_speed 2732.290
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 5841287.447
+size 76
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 2.112
+old_speed 2734.863
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 5984757.881
+size 77
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 2.169
+old_speed 2733.407
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 6075746.009
+size 78
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 2.225
+old_speed 2733.830
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 6113595.001
+size 79
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 2.285
+old_speed 2731.759
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 6460180.470
+size 80
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 2.340
+old_speed 2735.236
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 6597086.655
+size 81
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 2.400
+old_speed 2733.298
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 6541200.034
+size 82
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 2.460
+old_speed 2732.999
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 6902227.140
+size 83
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 2.521
+old_speed 2732.515
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 7130937.872
+size 84
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 2.584
+old_speed 2731.173
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 7150280.025
+size 85
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 2.644
+old_speed 2732.405
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 7394789.263
+size 86
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 2.706
+old_speed 2733.631
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 7464165.636
+size 87
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 2.769
+old_speed 2733.785
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 7660880.062
+size 88
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 2.832
+old_speed 2734.052
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 7959002.739
+size 89
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 2.901
+old_speed 2730.234
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 8183025.119
+size 90
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 2.964
+old_speed 2732.405
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 8349437.798
+size 91
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 3.030
+old_speed 2732.617
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 8265833.276
+size 92
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 3.098
+old_speed 2732.405
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 8673488.653
+size 93
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 3.165
+old_speed 2732.678
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 8798577.564
+size 94
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 3.230
+old_speed 2735.400
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 9043648.156
+size 95
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 3.302
+old_speed 2733.387
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 8908824.100
+size 96
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 3.373
+old_speed 2732.041
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 9196932.111
+size 97
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 3.212
+old_speed 2928.995
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 10239804.446
+size 98
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 3.453
+old_speed 2781.054
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 9662292.064
+size 99
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 3.159
+old_speed 3102.715
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 10187948.824
+size 100
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 3.601
+old_speed 2776.863
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 10060695.610
+size 101
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 3.442
+old_speed 2963.756
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 10582759.116
+size 102
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 3.720
+old_speed 2796.991
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 11100874.794
+size 103
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 3.257
+old_speed 3257.448
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 10879552.845
+size 104
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 3.639
+old_speed 2972.607
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 11035171.993
+size 105
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 3.386
+old_speed 3255.731
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 11070673.115
+size 106
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 4.050
+old_speed 2774.218
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 10866313.061
+size 107
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 4.202
+old_speed 2724.624
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 11390082.186
+size 108
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 4.282
+old_speed 2723.965
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 11225874.680
+size 109
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 4.311
+old_speed 2756.175
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 12337837.540
+size 110
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 4.397
+old_speed 2752.121
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 11737067.160
+size 111
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 4.523
+old_speed 2724.022
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 12057400.743
+size 112
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 4.225
+old_speed 2969.036
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 13360423.915
+size 113
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 4.423
+old_speed 2887.001
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 13243587.482
+size 114
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 4.717
+old_speed 2754.987
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 12436498.924
+size 115
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 4.855
+old_speed 2723.860
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 12875968.059
+size 116
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 4.938
+old_speed 2724.882
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 12950563.246
+size 117
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 5.020
+old_speed 2726.815
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 12853330.525
+size 118
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 4.728
+old_speed 2944.833
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 14192342.381
+size 119
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 4.865
+old_speed 2910.776
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 14676436.606
+size 120
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 4.422
+old_speed 3256.338
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 14691797.032
+size 121
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 5.301
+old_speed 2762.139
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 14052358.092
+size 122
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 4.931
+old_speed 3018.735
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 13987905.162
+size 123
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 4.913
+old_speed 3079.322
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 15130096.618
+size 124
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 5.251
+old_speed 2928.143
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 15517713.740
+size 125
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 5.317
+old_speed 2938.883
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 15626132.570
+size 126
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 4.876
+old_speed 3256.109
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 16166246.736
+size 127
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 4.956
+old_speed 3254.219
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 16049805.271
+size 128
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 5.950
+old_speed 2753.666
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 15515799.669
+size 129
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 6.000
+old_speed 2773.280
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 16524008.727
+size 130
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 6.072
+old_speed 2783.193
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 17175608.820
+size 131
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 6.140
+old_speed 2794.927
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 17335850.420
+size 132
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 6.171
+old_speed 2823.669
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 17252491.241
+size 133
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 6.201
+old_speed 2852.559
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 17762279.975
+size 134
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 6.237
+old_speed 2879.178
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 18284273.519
+size 135
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 6.259
+old_speed 2911.779
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 18187292.505
+size 136
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 5.689
+old_speed 3251.172
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 18223595.674
+size 137
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 5.764
+old_speed 3256.337
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 18996836.819
+size 138
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 6.499
+old_speed 2930.291
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 19122893.315
+size 139
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 6.482
+old_speed 2980.792
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 19536679.745
+size 140
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 6.562
+old_speed 2986.924
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 19799700.963
+size 141
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 6.443
+old_speed 3085.735
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 20020878.229
+size 142
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 6.197
+old_speed 3253.995
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 19295903.686
+size 143
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 6.874
+old_speed 2974.978
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 20348593.712
+size 144
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 7.463
+old_speed 2778.649
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 20797008.069
+size 145
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 6.457
+old_speed 3256.291
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 21193280.846
+size 146
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 7.194
+old_speed 2963.119
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 21021816.145
+size 147
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 7.163
+old_speed 3016.936
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 21457082.182
+size 148
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 7.340
+old_speed 2984.078
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 21350693.659
+size 149
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 7.676
+old_speed 2892.412
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 15439851.286
+size 150
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 7.557
+old_speed 2977.467
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 22587802.776
+size 151
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 6.996
+old_speed 3258.926
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 20287298.580
+size 152
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 7.320
+old_speed 3156.321
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 21649955.231
+size 153
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 8.122
+old_speed 2882.149
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 22770051.562
+size 154
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 7.283
+old_speed 3256.401
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 23159979.898
+size 155
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 7.380
+old_speed 3255.512
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 23527469.904
+size 156
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 7.492
+old_speed 3248.460
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 24193548.742
+size 157
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 7.569
+old_speed 3256.548
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 24308817.140
+size 158
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 8.274
+old_speed 3017.035
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 24965809.503
+size 159
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 7.760
+old_speed 3257.954
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 23785598.794
+size 160
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 8.651
+old_speed 2959.362
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 24953330.792
+size 161
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 7.947
+old_speed 3261.737
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 25260351.762
+size 162
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 8.999
+old_speed 2916.477
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 24713810.996
+size 163
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 8.589
+old_speed 3093.233
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 25355736.741
+size 164
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 9.154
+old_speed 2938.244
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 26161873.929
+size 165
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 8.902
+old_speed 3058.270
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 25585912.256
+size 166
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 9.405
+old_speed 2929.907
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 25610068.917
+size 167
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 8.911
+old_speed 3129.899
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 26841428.237
+size 168
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 9.491
+old_speed 2973.755
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 26353525.400
+size 169
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 9.079
+old_speed 3145.730
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 26739624.229
+size 170
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 9.006
+old_speed 3209.095
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 27574018.562
+size 171
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 9.584
+old_speed 3050.938
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 27716529.551
+size 172
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 9.593
+old_speed 3083.835
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 27295268.266
+size 173
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 10.118
+old_speed 2958.040
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 27559017.435
+size 174
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 9.599
+old_speed 3154.043
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 28319970.541
+size 175
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 9.390
+old_speed 3261.607
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 28519218.472
+size 176
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 9.508
+old_speed 3258.014
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 28262510.486
+size 177
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 9.992
+old_speed 3135.268
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 28559737.017
+size 178
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 10.419
+old_speed 3041.024
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 28420087.240
+size 179
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 10.736
+old_speed 2984.311
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 28557096.146
+size 180
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 10.795
+old_speed 3001.371
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 28877061.113
+size 181
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 10.435
+old_speed 3139.451
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 29703759.910
+size 182
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 10.773
+old_speed 3074.650
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 31101886.209
+size 183
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 10.963
+old_speed 3054.715
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 30749353.471
+size 184
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 11.227
+old_speed 3015.625
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 27936721.665
+size 185
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 11.430
+old_speed 2994.306
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 30310400.000
+size 186
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 10.613
+old_speed 3259.631
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 30136270.236
+size 187
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 10.849
+old_speed 3223.248
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 29963353.744
+size 188
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 11.220
+old_speed 3150.185
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 30762291.051
+size 189
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 11.439
+old_speed 3122.788
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 30872601.109
+size 190
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 11.629
+old_speed 3104.290
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 32120147.306
+size 191
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 11.752
+old_speed 3104.303
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 32315185.686
+size 192
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 11.870
+old_speed 3105.690
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 33423870.008
+size 193
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 12.009
+old_speed 3101.854
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 31171913.347
+size 194
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 12.051
+old_speed 3123.059
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 32696111.297
+size 195
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 11.678
+old_speed 3256.241
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 33647343.797
+size 196
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 11.798
+old_speed 3256.069
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 33004584.692
+size 197
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 12.427
+old_speed 3122.948
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 33989714.750
+size 198
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 12.472
+old_speed 3143.386
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 34904159.205
+size 199
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 12.490
+old_speed 3170.527
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 33366539.314
+size 200
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 12.919
+old_speed 3096.145
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 35681020.842
+size 201
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 13.335
+old_speed 3029.640
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 34738432.945
+size 202
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 13.272
+old_speed 3074.406
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 35826749.093
+size 203
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 13.277
+old_speed 3103.878
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 36565067.387
+size 204
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 13.151
+old_speed 3164.568
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 36478611.340
+size 205
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 13.733
+old_speed 3060.130
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 37218248.649
+size 206
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 13.036
+old_speed 3255.412
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 35449011.062
+size 207
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 13.687
+old_speed 3130.728
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 37255748.776
+size 208
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 13.974
+old_speed 3096.108
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 37946961.158
+size 209
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 14.298
+old_speed 3055.136
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 37558711.157
+size 210
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 14.106
+old_speed 3126.302
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 38680218.821
+size 211
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 14.517
+old_speed 3066.743
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 38814094.447
+size 212
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 14.433
+old_speed 3113.904
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 36660598.790
+size 213
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 14.545
+old_speed 3119.138
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 37711331.386
+size 214
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 14.065
+old_speed 3255.987
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 37968441.586
+size 215
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 14.189
+old_speed 3257.919
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 38846263.755
+size 216
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 14.334
+old_speed 3254.838
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 38850396.550
+size 217
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 15.006
+old_speed 3138.089
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 39335905.408
+size 218
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 15.600
+old_speed 3046.382
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 40098592.496
+size 219
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 15.238
+old_speed 3147.415
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 41028556.831
+size 220
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 15.678
+old_speed 3087.196
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 39281020.433
+size 221
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 15.642
+old_speed 3122.467
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 40978996.132
+size 222
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 15.676
+old_speed 3143.943
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 40827983.080
+size 223
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 16.163
+old_speed 3076.714
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 41607529.147
+size 224
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 15.420
+old_speed 3253.987
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 40010151.617
+size 225
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 16.213
+old_speed 3122.543
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 42222437.860
+size 226
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 16.385
+old_speed 3117.154
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 43138999.417
+size 227
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 16.776
+old_speed 3071.631
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 42687791.984
+size 228
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 16.299
+old_speed 3189.384
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 42752293.948
+size 229
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 16.587
+old_speed 3161.610
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 43589674.210
+size 230
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 16.925
+old_speed 3125.524
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 44269489.545
+size 231
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 16.415
+old_speed 3250.650
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 44575235.161
+size 232
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 16.550
+old_speed 3252.167
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 45159875.674
+size 233
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 16.687
+old_speed 3253.437
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 44205895.915
+size 234
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 17.286
+old_speed 3167.575
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 45138229.132
+size 235
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 17.555
+old_speed 3145.841
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 45489088.452
+size 236
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 17.095
+old_speed 3257.951
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 27711264.008
+size 237
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 17.894
+old_speed 3138.920
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 30473400.773
+size 238
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 18.070
+old_speed 3134.752
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 30616257.188
+size 239
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 18.189
+old_speed 3140.368
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 31264888.266
+size 240
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 18.244
+old_speed 3157.198
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 46756708.032
+size 241
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 18.409
+old_speed 3154.962
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 47330361.497
+size 242
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 17.995
+old_speed 3254.428
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 46885897.968
+size 243
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 18.124
+old_speed 3257.990
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 47049668.863
+size 244
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 18.493
+old_speed 3219.428
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 46876681.611
+size 245
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 18.423
+old_speed 3258.229
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 44997872.672
+size 246
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 19.063
+old_speed 3174.546
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 46411135.649
+size 247
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 19.557
+old_speed 3119.582
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 48418220.007
+size 248
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 19.590
+old_speed 3139.555
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 49399937.422
+size 249
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 19.335
+old_speed 3206.642
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 47838675.921
+size 250
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 20.119
+old_speed 3106.495
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 48223693.893
+size 251
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 19.371
+old_speed 3252.266
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 48132121.367
+size 252
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 19.523
+old_speed 3252.774
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 49152072.562
+size 253
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 19.677
+old_speed 3252.944
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 48417169.474
+size 254
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 20.648
+old_speed 3124.488
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 49706046.448
+size 255
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 20.215
+old_speed 3216.644
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 51811287.538
+size 256
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 20.127
+old_speed 3256.173
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 51206763.589
+size 257
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 20.891
+old_speed 3161.588
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 51761880.586
+size 258
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 21.365
+old_speed 3115.541
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 51359391.364
+size 259
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 20.650
+old_speed 3248.459
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 51968619.620
+size 260
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 20.797
+old_speed 3250.396
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 51996139.813
+size 261
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 21.395
+old_speed 3183.973
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 53306004.251
+size 262
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 21.869
+old_speed 3138.862
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 53248345.437
+size 263
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 22.250
+old_speed 3108.707
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 51889789.550
+size 264
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 21.786
+old_speed 3199.117
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 53082660.538
+size 265
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 21.854
+old_speed 3213.406
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 54224042.415
+size 266
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 22.611
+old_speed 3129.323
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 52526048.464
+size 267
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 22.224
+old_speed 3207.814
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 53006158.102
+size 268
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 22.629
+old_speed 3173.969
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 54377561.461
+size 269
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 22.266
+old_speed 3249.794
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 54119834.476
+size 270
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 22.428
+old_speed 3250.473
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 55232073.988
+size 271
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 23.605
+old_speed 3111.232
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 54732388.071
+size 272
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 23.770
+old_speed 3112.429
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 55841530.886
+size 273
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 23.481
+old_speed 3174.037
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 55287810.898
+size 274
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 23.273
+old_speed 3225.840
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 55851643.686
+size 275
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 23.261
+old_speed 3251.118
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 55609088.359
+size 276
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 23.502
+old_speed 3241.298
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 57023969.571
+size 277
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 23.879
+old_speed 3213.221
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 55882054.457
+size 278
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 24.127
+old_speed 3203.243
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 57719478.336
+size 279
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 24.221
+old_speed 3213.842
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 56613285.532
+size 280
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 24.296
+old_speed 3226.858
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 57228234.180
+size 281
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 24.286
+old_speed 3251.230
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 58143686.472
+size 282
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 25.402
+old_speed 3130.588
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 57458713.402
+size 283
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 25.342
+old_speed 3160.297
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 57451276.391
+size 284
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 25.392
+old_speed 3176.417
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 56523940.422
+size 285
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 25.326
+old_speed 3207.238
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 56014854.061
+size 286
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 25.176
+old_speed 3248.906
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 54936315.450
+size 287
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 26.011
+old_speed 3166.734
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 58745217.850
+size 288
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 25.516
+old_speed 3250.669
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 55142233.472
+size 289
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 26.602
+old_speed 3139.653
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 59485899.878
+size 290
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 26.558
+old_speed 3166.602
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 60112639.127
+size 291
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 26.212
+old_speed 3230.609
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 60057128.344
+size 292
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 26.946
+old_speed 3164.259
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 60727311.302
+size 293
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 26.587
+old_speed 3228.948
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 60243735.000
+size 294
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 26.613
+old_speed 3247.917
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 60403009.088
+size 295
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 27.089
+old_speed 3212.605
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 58683168.103
+size 296
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 27.616
+old_speed 3172.692
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 62138677.589
+size 297
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 27.169
+old_speed 3246.666
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 61817103.014
+size 298
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 27.705
+old_speed 3205.389
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 61413185.889
+size 299
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 27.673
+old_speed 3230.650
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 62174593.252
+size 300
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 28.673
+old_speed 3138.850
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 63156660.532
+size 301
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 28.277
+old_speed 3204.053
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 62439720.129
+size 302
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 28.606
+old_speed 3188.275
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 63958753.054
+size 303
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 29.012
+old_speed 3164.506
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 63365946.345
+size 304
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 29.304
+old_speed 3153.708
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 64581939.098
+size 305
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 29.550
+old_speed 3148.094
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 63764525.184
+size 306
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 29.682
+old_speed 3154.639
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 65065912.748
+size 307
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 29.946
+old_speed 3147.254
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 65351125.425
+size 308
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 30.105
+old_speed 3151.102
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 65420660.088
+size 309
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 29.753
+old_speed 3209.092
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 65889493.291
+size 310
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 30.422
+old_speed 3158.873
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 65818519.660
+size 311
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 29.830
+old_speed 3242.354
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 66701295.163
+size 312
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 30.643
+old_speed 3176.729
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 67175111.645
+size 313
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 30.643
+old_speed 3197.091
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 66555194.133
+size 314
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 30.732
+old_speed 3208.280
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 66485787.329
+size 315
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 30.924
+old_speed 3208.627
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 66239028.235
+size 316
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 31.657
+old_speed 3154.319
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 66438201.178
+size 317
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 31.604
+old_speed 3179.597
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 67447817.996
+size 318
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 31.549
+old_speed 3205.340
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 68787673.970
+size 319
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 31.876
+old_speed 3192.361
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 68520881.256
+size 320
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 32.299
+old_speed 3170.412
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 68315051.630
+size 321
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 31.716
+old_speed 3248.836
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 69160710.268
+size 322
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 32.869
+old_speed 3154.482
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 69039881.876
+size 323
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 32.615
+old_speed 3198.843
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 68641183.061
+size 324
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 32.304
+old_speed 3249.597
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 69295130.108
+size 325
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 32.513
+old_speed 3248.666
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 69855465.153
+size 326
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 32.744
+old_speed 3245.643
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 70098105.347
+size 327
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 32.926
+old_speed 3247.532
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 70120814.949
+size 328
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 33.885
+old_speed 3174.960
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 71819194.897
+size 329
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 33.794
+old_speed 3202.968
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.001
+new_speed 72592846.061
+size 330
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 34.171
+old_speed 3186.933
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 72409591.883
+size 331
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 34.621
+old_speed 3164.607
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 71790679.666
+size 332
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 33.914
+old_speed 3250.145
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 71333584.955
+size 333
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 34.517
+old_speed 3212.577
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 71455242.934
+size 334
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 34.924
+old_speed 3194.295
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 72251355.316
+size 335
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 34.539
+old_speed 3249.233
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 73444494.679
+size 336
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 35.685
+old_speed 3163.658
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 74770273.865
+size 337
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 35.822
+old_speed 3170.398
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 74277703.255
+size 338
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 35.791
+old_speed 3192.007
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 74660963.879
+size 339
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 36.218
+old_speed 3173.021
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 74144533.146
+size 340
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 36.433
+old_speed 3172.907
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 74251384.747
+size 341
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 35.774
+old_speed 3250.443
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 74872254.133
+size 342
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 36.689
+old_speed 3187.964
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 74738356.651
+size 343
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 36.760
+old_speed 3200.478
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 74879464.537
+size 344
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 36.812
+old_speed 3214.615
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 75373904.046
+size 345
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 36.806
+old_speed 3233.866
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 75720769.543
+size 346
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 37.735
+old_speed 3172.536
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 75918551.204
+size 347
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 37.704
+old_speed 3193.544
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 75580956.351
+size 348
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 37.655
+old_speed 3216.136
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 76268317.059
+size 349
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 37.482
+old_speed 3249.606
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 75796798.443
+size 350
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 37.647
+old_speed 3253.873
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 75893979.321
+size 351
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 37.863
+old_speed 3253.873
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 76953454.520
+size 352
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 38.075
+old_speed 3254.185
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 77588988.178
+size 353
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 38.357
+old_speed 3248.695
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 76544819.440
+size 354
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 38.557
+old_speed 3250.152
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 77501238.582
+size 355
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 38.817
+old_speed 3246.648
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 77836424.915
+size 356
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 39.013
+old_speed 3248.568
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 78240993.780
+size 357
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 39.163
+old_speed 3254.331
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 77901464.660
+size 358
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 39.434
+old_speed 3250.051
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 78636450.827
+size 359
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 39.643
+old_speed 3251.059
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 78015022.922
+size 360
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 39.872
+old_speed 3250.376
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 79610691.037
+size 361
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 40.277
+old_speed 3235.603
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 80288761.984
+size 362
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 40.628
+old_speed 3225.423
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 80639432.714
+size 363
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 41.168
+old_speed 3200.766
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 79237167.566
+size 364
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 41.300
+old_speed 3208.138
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 79869000.113
+size 365
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 40.974
+old_speed 3251.442
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 80889714.881
+size 366
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 41.174
+old_speed 3253.374
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 81878779.747
+size 367
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 42.132
+old_speed 3196.869
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 81132645.621
+size 368
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 42.425
+old_speed 3192.079
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 80947616.488
+size 369
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 41.882
+old_speed 3251.069
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 82672354.798
+size 370
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 42.705
+old_speed 3205.697
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 81981755.797
+size 371
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 42.950
+old_speed 3204.695
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 83570960.750
+size 372
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 42.559
+old_speed 3251.616
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 82423255.430
+size 373
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 43.593
+old_speed 3191.527
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 84012283.504
+size 374
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 43.804
+old_speed 3193.216
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 83359259.208
+size 375
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 43.706
+old_speed 3217.542
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 84056434.374
+size 376
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 43.507
+old_speed 3249.474
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 84050166.166
+size 377
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 44.867
+old_speed 3167.801
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 83107797.744
+size 378
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 45.078
+old_speed 3169.694
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 82593568.459
+size 379
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 44.617
+old_speed 3219.429
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 84250317.559
+size 380
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 44.926
+old_speed 3214.155
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 84200958.932
+size 381
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 44.649
+old_speed 3251.182
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 83096678.442
+size 382
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 45.011
+old_speed 3241.930
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 83238081.993
+size 383
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 45.503
+old_speed 3223.702
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 84201212.461
+size 384
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 45.376
+old_speed 3249.671
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 84838860.168
+size 385
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 45.897
+old_speed 3229.479
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 84654236.166
+size 386
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 45.843
+old_speed 3250.151
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 85292004.747
+size 387
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 46.620
+old_speed 3212.582
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 83857524.466
+size 388
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 46.509
+old_speed 3236.911
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 82669193.686
+size 389
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 46.779
+old_speed 3234.825
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 80790004.530
+size 390
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 47.021
+old_speed 3234.710
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 83709964.362
+size 391
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 47.212
+old_speed 3238.172
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 83766086.195
+size 392
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 47.480
+old_speed 3236.401
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 84426713.369
+size 393
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 47.761
+old_speed 3233.764
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 83041412.447
+size 394
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 47.949
+old_speed 3237.530
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 86629453.931
+size 395
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 48.257
+old_speed 3233.198
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 86152749.026
+size 396
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 48.734
+old_speed 3217.762
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 84715865.026
+size 397
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 48.678
+old_speed 3237.765
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 86030720.866
+size 398
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 48.996
+old_speed 3233.019
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 85905680.219
+size 399
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 49.237
+old_speed 3233.376
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 88057152.987
+size 400
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 49.467
+old_speed 3234.467
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 87154368.831
+size 401
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 49.644
+old_speed 3239.104
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 86589841.765
+size 402
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 49.870
+old_speed 3240.506
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 87302460.538
+size 403
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 50.119
+old_speed 3240.475
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 86986683.481
+size 404
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 50.445
+old_speed 3235.545
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 87140723.226
+size 405
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 50.792
+old_speed 3229.356
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 83939813.763
+size 406
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 50.953
+old_speed 3235.065
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 89197818.881
+size 407
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 51.248
+old_speed 3232.299
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 89292155.674
+size 408
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 51.412
+old_speed 3237.830
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 80336051.209
+size 409
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 51.717
+old_speed 3234.545
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 87582994.311
+size 410
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 52.010
+old_speed 3232.062
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 82482744.782
+size 411
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 53.995
+old_speed 3128.441
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 87838584.922
+size 412
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 52.452
+old_speed 3236.150
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 87852657.722
+size 413
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 55.301
+old_speed 3084.351
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 86633354.199
+size 414
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 53.378
+old_speed 3210.962
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 90837367.751
+size 415
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 53.218
+old_speed 3236.187
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 91554373.435
+size 416
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 53.454
+old_speed 3237.466
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 91324795.297
+size 417
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 54.715
+old_speed 3178.115
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 87556221.879
+size 418
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 53.969
+old_speed 3237.502
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 89229949.117
+size 419
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 54.212
+old_speed 3238.432
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 89986093.675
+size 420
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 54.590
+old_speed 3231.337
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 91444225.139
+size 421
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 54.779
+old_speed 3235.558
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 89837176.467
+size 422
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 55.075
+old_speed 3233.495
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 92408565.327
+size 423
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 55.272
+old_speed 3237.273
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 90495914.677
+size 424
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 55.765
+old_speed 3223.829
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 89712694.337
+size 425
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 56.017
+old_speed 3224.454
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 85846590.368
+size 426
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 56.123
+old_speed 3233.513
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 92972457.885
+size 427
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 56.382
+old_speed 3233.808
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 88686449.497
+size 428
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 56.636
+old_speed 3234.428
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 83686895.102
+size 429
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 56.792
+old_speed 3240.597
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 93328968.984
+size 430
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 57.739
+old_speed 3202.357
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 92500812.214
+size 431
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 60.260
+old_speed 3082.678
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 85254196.886
+size 432
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 58.169
+old_speed 3208.284
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 93788376.431
+size 433
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 58.461
+old_speed 3207.080
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 94974138.002
+size 434
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 58.596
+old_speed 3214.486
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 94139933.773
+size 435
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 58.368
+old_speed 3241.926
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 95714806.368
+size 436
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 59.979
+old_speed 3169.393
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 95476040.376
+size 437
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 58.998
+old_speed 3236.850
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 93018469.466
+size 438
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 59.691
+old_speed 3213.943
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 95022680.276
+size 439
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 60.839
+old_speed 3167.730
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 95649090.189
+size 440
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 59.840
+old_speed 3235.293
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 93485753.442
+size 441
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 60.351
+old_speed 3222.500
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 95382651.570
+size 442
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 60.352
+old_speed 3237.050
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 94609861.062
+size 443
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 60.483
+old_speed 3244.697
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 96906989.133
+size 444
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 60.884
+old_speed 3237.879
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 96156333.683
+size 445
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 61.185
+old_speed 3236.473
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 93270864.638
+size 446
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 63.763
+old_speed 3119.603
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 96419065.580
+size 447
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 62.175
+old_speed 3213.670
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 96295494.420
+size 448
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 61.972
+old_speed 3238.642
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 96207267.430
+size 449
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 64.101
+old_speed 3145.073
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 95946429.219
+size 450
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 65.161
+old_speed 3107.689
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 97873537.681
+size 451
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 63.191
+old_speed 3218.839
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 95492011.182
+size 452
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 65.781
+old_speed 3105.813
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 97288043.190
+size 453
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 63.333
+old_speed 3240.173
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 96752352.691
+size 454
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 65.061
+old_speed 3168.018
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 97038181.980
+size 455
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 63.992
+old_speed 3235.173
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 98249127.133
+size 456
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 64.212
+old_speed 3238.254
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 99118854.023
+size 457
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 65.841
+old_speed 3172.027
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 97863500.849
+size 458
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 68.329
+old_speed 3069.927
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 99695635.610
+size 459
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 65.115
+old_speed 3235.502
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 99657173.906
+size 460
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 65.267
+old_speed 3242.091
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 97112892.702
+size 461
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 66.866
+old_speed 3178.312
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 97706640.402
+size 462
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 65.973
+old_speed 3235.314
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 98769750.990
+size 463
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 67.430
+old_speed 3179.144
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 99483154.921
+size 464
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 66.431
+old_speed 3240.920
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 100457990.208
+size 465
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 70.324
+old_speed 3074.685
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 102129885.405
+size 466
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 73.901
+old_speed 2938.453
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 97372063.227
+size 467
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 68.599
+old_speed 3179.179
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 99633108.055
+size 468
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 68.119
+old_speed 3215.310
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 101396604.779
+size 469
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 68.574
+old_speed 3207.655
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 102213970.989
+size 470
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 68.176
+old_speed 3240.138
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 100873353.685
+size 471
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 68.465
+old_speed 3240.232
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 102181923.310
+size 472
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 69.137
+old_speed 3222.359
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 101911203.221
+size 473
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 69.065
+old_speed 3239.420
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 102623298.296
+size 474
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 72.252
+old_speed 3109.605
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 102787897.634
+size 475
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 71.073
+old_speed 3174.550
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 99093176.963
+size 476
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 70.220
+old_speed 3226.638
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 103027821.239
+size 477
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 70.464
+old_speed 3229.033
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 102219986.591
+size 478
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 70.516
+old_speed 3240.163
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 101776906.875
+size 479
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 70.842
+old_speed 3238.784
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 102203197.118
+size 480
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 71.473
+old_speed 3223.578
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 99441000.370
+size 481
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 106.791
+old_speed 2166.477
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 1.007
+new_speed 229791.747
+size 482
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 72.171
+old_speed 3219.087
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 103027858.162
+size 483
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 72.171
+old_speed 3232.465
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.019
+new_speed 12353828.494
+size 484
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 72.186
+old_speed 3245.169
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 103284019.534
+size 485
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 72.754
+old_speed 3233.149
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 103169001.192
+size 486
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 72.961
+old_speed 3237.290
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 105067115.026
+size 487
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 73.002
+old_speed 3248.795
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 104524417.923
+size 488
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 73.341
+old_speed 3247.088
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 103851978.766
+size 489
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 73.652
+old_speed 3246.648
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 105807170.248
+size 490
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 74.025
+old_speed 3243.484
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 103489095.715
+size 491
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 74.361
+old_speed 3242.022
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 105604908.890
+size 492
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 74.740
+old_speed 3238.746
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 103190365.226
+size 493
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 74.945
+old_speed 3243.049
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 106090268.800
+size 494
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 75.343
+old_speed 3238.994
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 106101500.046
+size 495
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 75.554
+old_speed 3243.056
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 106355100.652
+size 496
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 75.881
+old_speed 3242.131
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 107766672.884
+size 497
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 76.212
+old_speed 3241.091
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 96187061.251
+size 498
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 76.459
+old_speed 3243.626
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 106110799.675
+size 499
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 77.073
+old_speed 3230.702
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 107193460.978
+size 500
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 77.236
+old_speed 3236.817
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 107019391.713
+size 501
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 77.560
+old_speed 3236.203
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 106674890.901
+size 502
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 77.817
+old_speed 3238.413
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 107646540.912
+size 503
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 78.336
+old_speed 3229.774
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 107517392.172
+size 504
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 78.410
+old_speed 3239.601
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 109016711.845
+size 505
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 78.718
+old_speed 3239.729
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 106933157.813
+size 506
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 78.999
+old_speed 3241.004
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 107389281.894
+size 507
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 79.281
+old_speed 3242.265
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 97587042.804
+size 508
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 79.759
+old_speed 3235.541
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 107744263.135
+size 509
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 79.956
+old_speed 3240.313
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 108449548.366
+size 510
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 80.210
+old_speed 3242.743
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 108238760.829
+size 511
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 80.586
+old_speed 3240.295
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 96887902.936
+size 512
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 80.792
+old_speed 3244.669
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 109687911.789
+size 513
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 81.287
+old_speed 3237.548
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 106278720.333
+size 514
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 81.415
+old_speed 3245.072
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 110085271.169
+size 515
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 81.788
+old_speed 3242.828
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 108297729.595
+size 516
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 82.204
+old_speed 3238.982
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.025
+new_speed 10746123.110
+size 517
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 82.426
+old_speed 3242.768
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 108738246.543
+size 518
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 82.767
+old_speed 3241.901
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 108412718.090
+size 519
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 83.066
+old_speed 3242.730
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 109762160.667
+size 520
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 83.343
+old_speed 3244.439
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 109568138.499
+size 521
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 83.755
+old_speed 3240.896
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 110075033.555
+size 522
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 84.024
+old_speed 3242.949
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 112776863.147
+size 523
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 84.375
+old_speed 3241.813
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 111917254.786
+size 524
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 84.679
+old_speed 3242.540
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 110714787.070
+size 525
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 85.158
+old_speed 3236.633
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 111869076.834
+size 526
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 85.346
+old_speed 3241.826
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 111701150.592
+size 527
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 85.649
+old_speed 3242.636
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 110740550.966
+size 528
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 85.940
+old_speed 3243.944
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 112638940.982
+size 529
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 86.327
+old_speed 3241.655
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 112751030.323
+size 530
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 86.685
+old_speed 3240.456
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 113680045.697
+size 531
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 86.983
+old_speed 3241.546
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.002
+new_speed 114241706.930
+size 532
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 87.240
+old_speed 3244.187
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 109489826.166
+size 533
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 87.633
+old_speed 3241.786
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 112548940.121
+size 534
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 88.066
+old_speed 3237.985
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 113918559.046
+size 535
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 88.221
+old_speed 3244.419
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 114073989.206
+size 536
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 88.627
+old_speed 3241.640
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 113873252.881
+size 537
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 88.811
+old_speed 3246.999
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 113313401.740
+size 538
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 89.321
+old_speed 3240.492
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 113650639.110
+size 539
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 89.633
+old_speed 3241.222
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 113130943.495
+size 540
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 89.982
+old_speed 3240.653
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 113815284.422
+size 541
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 90.303
+old_speed 3241.116
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 112612887.719
+size 542
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 90.573
+old_speed 3243.378
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 113466757.552
+size 543
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 90.910
+old_speed 3243.300
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 114997799.897
+size 544
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 91.379
+old_speed 3238.553
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 115143371.850
+size 545
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 91.605
+old_speed 3242.445
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 115663647.349
+size 546
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 91.952
+old_speed 3242.091
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 114925471.624
+size 547
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 92.322
+old_speed 3240.925
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 114202703.206
+size 548
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 92.842
+old_speed 3234.562
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 116400172.666
+size 549
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 92.866
+old_speed 3245.536
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 113520781.241
+size 550
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 93.271
+old_speed 3243.252
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 117392390.822
+size 551
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 93.664
+old_speed 3241.374
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 116143276.970
+size 552
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 94.046
+old_speed 3239.936
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 116469625.993
+size 553
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 94.206
+old_speed 3246.174
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 117664059.438
+size 554
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 94.766
+old_speed 3238.662
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 117144326.733
+size 555
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 95.009
+old_speed 3242.064
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 117653263.783
+size 556
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 95.402
+old_speed 3240.340
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 116738125.627
+size 557
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 95.706
+old_speed 3241.690
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.022
+new_speed 13896907.470
+size 558
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 96.130
+old_speed 3238.993
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 117897920.976
+size 559
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 96.426
+old_speed 3240.641
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 116294614.749
+size 560
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 96.720
+old_speed 3242.342
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 114327139.018
+size 561
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 97.283
+old_speed 3235.099
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 118761632.855
+size 562
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 97.343
+old_speed 3244.639
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 118513665.466
+size 563
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 97.753
+old_speed 3242.535
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 117881215.160
+size 564
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 98.153
+old_speed 3240.833
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 118996728.968
+size 565
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 98.610
+old_speed 3237.263
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 118269295.504
+size 566
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 98.766
+old_speed 3243.580
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 106151876.459
+size 567
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 99.315
+old_speed 3237.067
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 118376138.939
+size 568
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 99.505
+old_speed 3242.282
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 120422099.644
+size 569
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 99.939
+old_speed 3239.597
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 120621074.555
+size 570
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 100.174
+old_speed 3243.358
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 119705671.961
+size 571
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 100.586
+old_speed 3241.419
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 116702088.280
+size 572
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 100.898
+old_speed 3242.712
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 105173908.640
+size 573
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 101.221
+old_speed 3243.699
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 118532590.637
+size 574
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 101.532
+old_speed 3245.039
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 119896104.868
+size 575
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 101.906
+old_speed 3244.400
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 120796320.557
+size 576
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 102.401
+old_speed 3239.983
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 123519386.109
+size 577
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 102.697
+old_speed 3241.864
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 104725171.473
+size 578
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 103.006
+old_speed 3243.336
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 121257343.158
+size 579
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 103.362
+old_speed 3243.355
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 121687811.966
+size 580
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 103.731
+old_speed 3243.010
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 122013478.520
+size 581
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 104.180
+old_speed 3240.179
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 112332073.353
+size 582
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 104.543
+old_speed 3240.044
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 122952092.436
+size 583
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 104.994
+old_speed 3237.238
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 121866797.081
+size 584
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 105.250
+old_speed 3240.427
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 122243423.776
+size 585
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 105.598
+old_speed 3240.841
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 106341360.676
+size 586
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 105.967
+old_speed 3240.584
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 124368121.612
+size 587
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 106.135
+old_speed 3246.520
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 105924005.788
+size 588
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 106.634
+old_speed 3242.358
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 124370106.533
+size 589
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 107.098
+old_speed 3239.292
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 108177246.152
+size 590
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 107.353
+old_speed 3242.587
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 122785066.218
+size 591
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 107.711
+old_speed 3242.748
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 107144788.666
+size 592
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 108.137
+old_speed 3240.924
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 122536892.052
+size 593
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 108.531
+old_speed 3240.067
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 106270106.441
+size 594
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 108.843
+old_speed 3241.702
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 124938914.829
+size 595
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 109.018
+old_speed 3247.400
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 110122254.049
+size 596
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 109.516
+old_speed 3243.521
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 125781670.719
+size 597
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 109.862
+old_speed 3244.158
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 106961054.260
+size 598
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 110.172
+old_speed 3245.883
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 125304919.600
+size 599
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 110.658
+old_speed 3242.431
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 126432031.379
+size 600
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 111.122
+old_speed 3239.678
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 126133943.697
+size 601
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 111.445
+old_speed 3241.075
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 123621933.831
+size 602
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 111.603
+old_speed 3247.250
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 108994159.387
+size 603
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 111.990
+old_speed 3246.812
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.007
+new_speed 52989356.976
+size 604
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 112.540
+old_speed 3241.649
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 120922175.444
+size 605
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 113.300
+old_speed 3230.575
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 126210138.244
+size 606
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 113.091
+old_speed 3247.270
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 126804924.981
+size 607
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 113.509
+old_speed 3245.999
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 125498385.130
+size 608
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 113.947
+old_speed 3244.185
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 128266313.191
+size 609
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 114.273
+old_speed 3245.558
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 125673587.157
+size 610
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 114.607
+old_speed 3246.755
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 124696430.042
+size 611
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 115.058
+old_speed 3244.640
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 127676269.046
+size 612
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 115.483
+old_speed 3243.271
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 126536560.401
+size 613
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 115.811
+old_speed 3244.679
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 128597374.329
+size 614
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 116.053
+old_speed 3248.483
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 127364948.110
+size 615
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 116.528
+old_speed 3245.779
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 109406250.372
+size 616
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 116.805
+old_speed 3248.640
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 128496190.750
+size 617
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 117.493
+old_speed 3240.100
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 129836184.376
+size 618
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 117.670
+old_speed 3245.725
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.022
+new_speed 16999409.558
+size 619
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 117.966
+old_speed 3248.056
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 130456507.423
+size 620
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 118.375
+old_speed 3247.299
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 128911046.422
+size 621
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 118.910
+old_speed 3243.144
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 129316884.303
+size 622
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 119.357
+old_speed 3241.389
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 128878493.268
+size 623
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 119.776
+old_speed 3240.465
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 128690198.989
+size 624
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 120.073
+old_speed 3242.820
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 130705187.219
+size 625
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 121.026
+old_speed 3227.620
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 128997716.715
+size 626
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 120.702
+old_speed 3246.640
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 128229604.798
+size 627
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 121.087
+old_speed 3246.677
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 130647534.840
+size 628
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 121.407
+old_speed 3248.447
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 129555638.216
+size 629
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 121.900
+old_speed 3245.612
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 129674035.232
+size 630
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 122.209
+old_speed 3247.708
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 130382147.368
+size 631
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 122.797
+old_speed 3242.426
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 129860674.568
+size 632
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 123.332
+old_speed 3238.618
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 129307323.317
+size 633
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 123.527
+old_speed 3243.740
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 131205517.640
+size 634
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 123.740
+old_speed 3248.391
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 131190231.003
+size 635
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 124.272
+old_speed 3244.686
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 130699245.008
+size 636
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 124.615
+old_speed 3245.968
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 131121353.334
+size 637
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 125.193
+old_speed 3241.145
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 130765926.990
+size 638
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 125.399
+old_speed 3245.985
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 131348382.626
+size 639
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 125.750
+old_speed 3247.093
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 131719920.288
+size 640
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 126.224
+old_speed 3245.033
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 133726700.272
+size 641
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 126.578
+old_speed 3246.063
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 134061440.826
+size 642
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 126.954
+old_speed 3246.566
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 131054591.301
+size 643
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 127.376
+old_speed 3245.905
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 132609221.878
+size 644
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 127.764
+old_speed 3246.113
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 132930526.039
+size 645
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 128.108
+old_speed 3247.458
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 133048823.607
+size 646
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 128.595
+old_speed 3245.201
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 133798361.723
+size 647
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 128.841
+old_speed 3249.035
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 133875211.829
+size 648
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 129.430
+old_speed 3244.250
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 133384203.788
+size 649
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 129.587
+old_speed 3250.339
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 114679976.573
+size 650
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 130.089
+old_speed 3247.774
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 134637094.666
+size 651
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 130.700
+old_speed 3242.557
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 135401449.536
+size 652
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 130.831
+old_speed 3249.262
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 133050922.141
+size 653
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 131.375
+old_speed 3245.728
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 114786533.235
+size 654
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 131.756
+old_speed 3246.283
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 136777289.544
+size 655
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 132.101
+old_speed 3247.707
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 133778995.881
+size 656
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 132.665
+old_speed 3243.780
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 132620132.707
+size 657
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 132.850
+old_speed 3249.139
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 137375151.931
+size 658
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 132.883
+old_speed 3258.235
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 137720509.408
+size 659
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 133.207
+old_speed 3260.185
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 136996580.582
+size 660
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 133.472
+old_speed 3263.616
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 138202634.070
+size 661
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 134.041
+old_speed 3259.611
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 132440521.644
+size 662
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 134.458
+old_speed 3259.344
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 121400737.215
+size 663
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 134.784
+old_speed 3261.281
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 139366997.882
+size 664
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 135.218
+old_speed 3260.636
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 139661041.944
+size 665
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 135.599
+old_speed 3261.281
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 137414882.679
+size 666
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 135.905
+old_speed 3263.725
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 138619231.430
+size 667
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 136.464
+old_speed 3260.120
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 109790522.020
+size 668
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 137.815
+old_speed 3237.838
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 132493211.673
+size 669
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 138.176
+old_speed 3239.056
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 132058170.422
+size 670
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 138.512
+old_speed 3240.867
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 133761229.440
+size 671
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 138.740
+old_speed 3245.212
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 131224211.470
+size 672
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 139.266
+old_speed 3242.609
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 141571162.085
+size 673
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 139.382
+old_speed 3249.552
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 132394028.602
+size 674
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 140.099
+old_speed 3242.545
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 134446206.880
+size 675
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 140.335
+old_speed 3246.696
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 134674401.691
+size 676
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 140.983
+old_speed 3241.357
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 134845663.761
+size 677
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 141.322
+old_speed 3243.165
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 135397320.610
+size 678
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 141.854
+old_speed 3240.547
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 134650076.118
+size 679
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 142.362
+old_speed 3238.519
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 134101672.016
+size 680
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 142.881
+old_speed 3236.250
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 115169012.447
+size 681
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 142.659
+old_speed 3250.829
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 135089562.980
+size 682
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 143.083
+old_speed 3250.739
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 135845098.092
+size 683
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 143.483
+old_speed 3251.175
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 117414587.053
+size 684
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 143.868
+old_speed 3251.974
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 135773216.095
+size 685
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 144.189
+old_speed 3254.228
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 142966169.868
+size 686
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 144.544
+old_speed 3255.722
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 141960780.005
+size 687
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 145.696
+old_speed 3239.414
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 142293089.748
+size 688
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 145.922
+old_speed 3243.826
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 115817794.457
+size 689
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 146.637
+old_speed 3237.379
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 141405027.284
+size 690
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 146.028
+old_speed 3260.331
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 141194098.452
+size 691
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 146.664
+old_speed 3255.603
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 142530814.051
+size 692
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 146.923
+old_speed 3259.296
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 136539849.807
+size 693
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 147.283
+old_speed 3260.721
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 142980572.239
+size 694
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 147.834
+old_speed 3257.945
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 135062365.537
+size 695
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 148.352
+old_speed 3255.942
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 135906197.733
+size 696
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 148.814
+old_speed 3255.180
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 143234964.150
+size 697
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 149.011
+old_speed 3260.225
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 138567197.003
+size 698
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 149.620
+old_speed 3256.282
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 142165137.472
+size 699
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 149.929
+old_speed 3258.884
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 142285713.303
+size 700
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 150.624
+old_speed 3253.129
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 137023065.538
+size 701
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 151.109
+old_speed 3251.958
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 142685024.569
+size 702
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 151.128
+old_speed 3260.829
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 142845182.337
+size 703
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 151.740
+old_speed 3256.936
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 145617336.532
+size 704
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 152.126
+old_speed 3257.933
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 138750779.019
+size 705
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 152.631
+old_speed 3256.387
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 139024604.575
+size 706
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 153.755
+old_speed 3241.754
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 137079018.330
+size 707
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 154.441
+old_speed 3236.506
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 136794901.481
+size 708
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 155.131
+old_speed 3231.232
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 136098757.137
+size 709
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 154.827
+old_speed 3246.726
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 138710324.278
+size 710
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 155.173
+old_speed 3248.627
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 119827069.787
+size 711
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 155.773
+old_speed 3245.247
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 139338158.138
+size 712
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 156.027
+old_speed 3249.077
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 141055940.492
+size 713
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 156.555
+old_speed 3247.216
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 139737474.944
+size 714
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 157.326
+old_speed 3240.389
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.003
+new_speed 147089454.632
+size 715
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 157.323
+old_speed 3249.530
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 139253998.078
+size 716
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 157.494
+old_speed 3255.087
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 142051602.789
+size 717
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 158.754
+old_speed 3238.266
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 141198713.186
+size 718
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 158.447
+old_speed 3253.596
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 141047904.455
+size 719
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 163.591
+old_speed 3160.080
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 140097666.870
+size 720
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 164.759
+old_speed 3146.411
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 142812951.961
+size 721
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 165.371
+old_speed 3143.490
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 139812195.297
+size 722
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 165.867
+old_speed 3142.786
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 140245257.623
+size 723
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 164.618
+old_speed 3175.406
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 140896107.938
+size 724
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 167.623
+old_speed 3127.105
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 141014270.637
+size 725
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 167.807
+old_speed 3132.311
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 141105417.307
+size 726
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 167.282
+old_speed 3150.824
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 141685379.421
+size 727
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 166.779
+old_speed 3169.045
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 140127136.461
+size 728
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 163.646
+old_speed 3238.608
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 139981990.626
+size 729
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 163.708
+old_speed 3246.273
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 140597017.287
+size 730
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 163.781
+old_speed 3253.728
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 141054184.122
+size 731
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 164.789
+old_speed 3242.699
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 140000779.546
+size 732
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 164.956
+old_speed 3248.286
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 118910515.688
+size 733
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 165.565
+old_speed 3245.186
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 141804266.414
+size 734
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 166.392
+old_speed 3237.872
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 140337004.461
+size 735
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 165.928
+old_speed 3255.776
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 141492936.081
+size 736
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 166.372
+old_speed 3255.941
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 142286930.084
+size 737
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 167.138
+old_speed 3249.825
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 142077699.369
+size 738
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 167.851
+old_speed 3244.799
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 140882054.134
+size 739
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 168.082
+old_speed 3249.132
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 142663022.844
+size 740
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 168.269
+old_speed 3254.323
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 143765702.954
+size 741
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 168.598
+old_speed 3256.751
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 149081605.038
+size 742
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 168.854
+old_speed 3260.598
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 149648939.632
+size 743
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 169.285
+old_speed 3261.061
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 141367685.994
+size 744
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 170.214
+old_speed 3251.996
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 147963689.946
+size 745
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 170.342
+old_speed 3258.292
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 145296690.650
+size 746
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 171.159
+old_speed 3251.449
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 148997656.381
+size 747
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 171.264
+old_speed 3258.187
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 150900024.548
+size 748
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 171.911
+old_speed 3254.621
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 142988658.617
+size 749
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 172.586
+old_speed 3250.561
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 142753669.739
+size 750
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 173.051
+old_speed 3250.481
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 138749470.713
+size 751
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 173.694
+old_speed 3247.093
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 141246217.477
+size 752
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 174.896
+old_speed 3233.364
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 143716413.549
+size 753
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 174.308
+old_speed 3252.917
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 138501433.623
+size 754
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 174.837
+old_speed 3251.698
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 135200370.407
+size 755
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 175.729
+old_speed 3243.775
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 144305778.465
+size 756
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 175.685
+old_speed 3253.193
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 148451556.288
+size 757
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 176.035
+old_speed 3255.311
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 144382874.566
+size 758
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 176.966
+old_speed 3246.752
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 144947436.753
+size 759
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 177.743
+old_speed 3241.084
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 145584071.978
+size 760
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 177.343
+old_speed 3256.974
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 142264959.211
+size 761
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 178.593
+old_speed 3242.687
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 144497889.755
+size 762
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 178.925
+old_speed 3245.177
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 149953663.677
+size 763
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 179.501
+old_speed 3243.263
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 143990669.028
+size 764
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 179.796
+old_speed 3246.428
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 144020146.337
+size 765
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 180.290
+old_speed 3246.018
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 151491178.078
+size 766
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 179.995
+old_speed 3259.838
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 144130778.203
+size 767
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 181.938
+old_speed 3233.466
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 145153415.251
+size 768
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 185.139
+old_speed 3185.848
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 145062810.044
+size 769
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 187.125
+old_speed 3160.249
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 152486647.470
+size 770
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 181.821
+old_speed 3260.897
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 146974163.215
+size 771
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 183.606
+old_speed 3237.587
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 145379957.088
+size 772
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 184.063
+old_speed 3237.930
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 153057682.778
+size 773
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 184.174
+old_speed 3244.380
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 145812094.183
+size 774
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 184.790
+old_speed 3241.933
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 147407418.931
+size 775
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 184.826
+old_speed 3249.681
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 147537560.176
+size 776
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 185.114
+old_speed 3253.007
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 147521126.424
+size 777
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 185.438
+old_speed 3255.696
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 149693955.995
+size 778
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 186.036
+old_speed 3253.584
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 147199228.987
+size 779
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 186.670
+old_speed 3250.870
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 147869379.752
+size 780
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 187.418
+old_speed 3246.223
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 148240650.261
+size 781
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 187.520
+old_speed 3252.784
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 146770802.716
+size 782
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 187.700
+old_speed 3257.985
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 145841676.198
+size 783
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 188.790
+old_speed 3247.468
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 148050068.804
+size 784
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 188.899
+old_speed 3253.894
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 149080791.038
+size 785
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 189.525
+old_speed 3251.411
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 154750028.883
+size 786
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 189.934
+old_speed 3252.682
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 147480036.083
+size 787
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 190.116
+old_speed 3257.847
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 147118692.614
+size 788
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 190.744
+old_speed 3255.376
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 148832956.339
+size 789
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 191.420
+old_speed 3252.121
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 148531902.860
+size 790
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 191.451
+old_speed 3259.850
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 150026657.863
+size 791
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 192.071
+old_speed 3257.558
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 154415788.233
+size 792
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 192.166
+old_speed 3264.184
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 149027750.326
+size 793
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 193.168
+old_speed 3255.445
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 150041747.318
+size 794
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 193.743
+old_speed 3253.982
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 154670112.105
+size 795
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 193.413
+old_speed 3267.745
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 154113422.801
+size 796
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 194.478
+old_speed 3258.027
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 150222040.770
+size 797
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 194.793
+old_speed 3260.938
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 149879593.246
+size 798
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 195.611
+old_speed 3255.461
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 155540971.606
+size 799
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 195.708
+old_speed 3262.001
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 154723672.016
+size 800
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 196.115
+old_speed 3263.387
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 150730224.044
+size 801
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 196.791
+old_speed 3260.321
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 156749163.601
+size 802
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 196.940
+old_speed 3265.990
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 149272014.055
+size 803
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 197.832
+old_speed 3259.384
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 155674032.576
+size 804
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 198.243
+old_speed 3260.728
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 152489607.113
+size 805
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 198.643
+old_speed 3262.263
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 150632556.506
+size 806
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 199.535
+old_speed 3255.755
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 150141661.524
+size 807
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 199.776
+old_speed 3259.890
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 150888597.785
+size 808
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 200.147
+old_speed 3261.930
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 158073664.299
+size 809
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 200.374
+old_speed 3266.293
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 152234487.368
+size 810
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 201.521
+old_speed 3255.733
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 151485349.246
+size 811
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 201.685
+old_speed 3261.130
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 150929085.304
+size 812
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 202.226
+old_speed 3260.428
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 153946179.947
+size 813
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 204.204
+old_speed 3236.813
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 151112227.220
+size 814
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 204.421
+old_speed 3241.325
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 151732313.452
+size 815
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 204.005
+old_speed 3255.920
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 152163502.889
+size 816
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 204.424
+old_speed 3257.237
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 152754060.287
+size 817
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 204.923
+old_speed 3257.266
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 150908353.959
+size 818
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 205.326
+old_speed 3258.835
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 150668892.988
+size 819
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 205.752
+old_speed 3260.051
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 151615409.859
+size 820
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 206.160
+old_speed 3261.540
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 158289836.089
+size 821
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 206.541
+old_speed 3263.478
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 153506698.293
+size 822
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 207.420
+old_speed 3257.567
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 157507036.288
+size 823
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 208.533
+old_speed 3248.059
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 158445272.394
+size 824
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 208.053
+old_speed 3263.479
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 151997851.874
+size 825
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 209.001
+old_speed 3256.558
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 153952874.939
+size 826
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 210.094
+old_speed 3247.487
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 143752095.037
+size 827
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 209.801
+old_speed 3259.887
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 152837452.204
+size 828
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 211.257
+old_speed 3245.267
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 152081008.755
+size 829
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 211.507
+old_speed 3249.265
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 152174937.982
+size 830
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 211.446
+old_speed 3258.043
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 153702645.119
+size 831
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 212.666
+old_speed 3247.160
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 151004784.138
+size 832
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 212.990
+old_speed 3250.023
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 152810415.373
+size 833
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 213.654
+old_speed 3247.718
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 153882589.132
+size 834
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 214.349
+old_speed 3244.975
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 153376442.512
+size 835
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 213.978
+old_speed 3258.390
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 153373556.742
+size 836
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 214.787
+old_speed 3253.897
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 151735715.533
+size 837
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 215.393
+old_speed 3252.521
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 152225009.531
+size 838
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 215.838
+old_speed 3253.577
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 152993186.068
+size 839
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 216.258
+old_speed 3254.999
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 152961282.042
+size 840
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 217.507
+old_speed 3244.035
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 159207106.482
+size 841
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 217.634
+old_speed 3249.870
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 156200059.363
+size 842
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 217.952
+old_speed 3252.838
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 154057120.560
+size 843
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 219.111
+old_speed 3243.336
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 154295369.256
+size 844
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 218.651
+old_speed 3257.875
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 155054944.945
+size 845
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 219.364
+old_speed 3254.971
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 154620161.784
+size 846
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 220.606
+old_speed 3244.312
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 155018356.915
+size 847
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 220.024
+old_speed 3260.598
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 160456003.751
+size 848
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 220.887
+old_speed 3255.531
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.004
+new_speed 161784089.665
+size 849
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 221.364
+old_speed 3256.178
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 156523868.367
+size 850
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 221.841
+old_speed 3256.837
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 153717390.687
+size 851
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 222.265
+old_speed 3258.271
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 154707097.438
+size 852
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 222.827
+old_speed 3257.697
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 155641654.780
+size 853
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 223.903
+old_speed 3249.665
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 160621754.691
+size 854
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 223.909
+old_speed 3257.204
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 155443519.288
+size 855
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 225.973
+old_speed 3235.005
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 160488933.871
+size 856
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 224.661
+old_speed 3261.525
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 155532263.955
+size 857
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 225.772
+old_speed 3253.057
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 157272802.292
+size 858
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 226.547
+old_speed 3249.505
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 155106023.502
+size 859
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 227.187
+old_speed 3247.899
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 161782395.704
+size 860
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 227.681
+old_speed 3248.403
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 156065162.670
+size 861
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 228.201
+old_speed 3248.551
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 156067140.269
+size 862
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 228.591
+old_speed 3250.540
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 155804250.431
+size 863
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 228.995
+old_speed 3252.331
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 155776571.873
+size 864
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 229.452
+old_speed 3253.380
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 155780444.738
+size 865
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 230.236
+old_speed 3249.812
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 156203429.914
+size 866
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 230.449
+old_speed 3254.320
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 161318193.273
+size 867
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 231.205
+old_speed 3251.179
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 155886881.555
+size 868
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 231.082
+old_speed 3260.422
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 155992165.905
+size 869
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 232.415
+old_speed 3249.189
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 157065099.819
+size 870
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 232.963
+old_speed 3249.011
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 157130701.722
+size 871
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 233.284
+old_speed 3252.006
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 163706898.228
+size 872
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 233.711
+old_speed 3253.521
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 156559896.556
+size 873
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 234.321
+old_speed 3252.494
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 156788341.829
+size 874
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 234.836
+old_speed 3252.811
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 157821199.069
+size 875
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 234.869
+old_speed 3259.790
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 157925838.497
+size 876
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 236.313
+old_speed 3247.280
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 149237642.060
+size 877
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 236.132
+old_speed 3257.203
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 163405979.192
+size 878
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 237.377
+old_speed 3247.506
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 163117841.022
+size 879
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 236.841
+old_speed 3262.270
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 157905337.273
+size 880
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 238.245
+old_speed 3250.431
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 157268630.107
+size 881
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 238.887
+old_speed 3249.077
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 164716413.021
+size 882
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 239.174
+old_speed 3252.539
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 158076146.742
+size 883
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 241.314
+old_speed 3231.019
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 157861203.488
+size 884
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 240.168
+old_speed 3253.789
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 158410131.295
+size 885
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 240.670
+old_speed 3254.353
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 164649345.950
+size 886
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 241.010
+old_speed 3257.116
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 158614118.065
+size 887
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 242.228
+old_speed 3248.052
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 159171732.769
+size 888
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 242.502
+old_speed 3251.705
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 157645054.975
+size 889
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 243.042
+old_speed 3251.793
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 154603168.303
+size 890
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 243.363
+old_speed 3254.812
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 157001474.335
+size 891
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 243.818
+old_speed 3256.037
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 158109128.862
+size 892
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 244.614
+old_speed 3252.734
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 158156328.982
+size 893
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 245.304
+old_speed 3250.859
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 163645165.150
+size 894
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 249.634
+old_speed 3201.626
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 163843536.253
+size 895
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 251.526
+old_speed 3184.659
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 157741788.891
+size 896
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 247.510
+old_speed 3243.569
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 158975230.634
+size 897
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 247.405
+old_speed 3252.194
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 159398013.751
+size 898
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 247.748
+old_speed 3254.940
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 158058952.419
+size 899
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 248.360
+old_speed 3254.152
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 164101306.439
+size 900
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 248.175
+old_speed 3263.827
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 158201920.373
+size 901
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 249.689
+old_speed 3251.254
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 159146538.046
+size 902
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 250.235
+old_speed 3251.366
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 160098640.001
+size 903
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 250.311
+old_speed 3257.582
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 159414245.844
+size 904
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 251.271
+old_speed 3252.331
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 158996768.609
+size 905
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 251.618
+old_speed 3255.030
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 161856381.153
+size 906
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 251.775
+old_speed 3260.200
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.006
+new_speed 141401171.273
+size 907
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 252.992
+old_speed 3251.678
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 160142949.564
+size 908
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 253.788
+old_speed 3248.632
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 166789786.961
+size 909
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 253.406
+old_speed 3260.700
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 158112765.337
+size 910
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 254.914
+old_speed 3248.549
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 161391345.309
+size 911
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 255.107
+old_speed 3253.224
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 160834494.755
+size 912
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 255.663
+old_speed 3253.283
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 161187782.940
+size 913
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 256.369
+old_speed 3251.438
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 161139410.563
+size 914
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 257.052
+old_speed 3249.906
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 160655881.907
+size 915
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 257.800
+old_speed 3247.572
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 162317470.944
+size 916
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 258.064
+old_speed 3251.352
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 161389339.495
+size 917
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 258.554
+old_speed 3252.279
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 160937444.502
+size 918
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 259.220
+old_speed 3250.997
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 158078740.791
+size 919
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 259.565
+old_speed 3253.750
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 167740580.573
+size 920
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 260.117
+old_speed 3253.919
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 161278343.885
+size 921
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 260.392
+old_speed 3257.560
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 162218704.143
+size 922
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 261.692
+old_speed 3248.417
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 161153026.962
+size 923
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 261.292
+old_speed 3260.446
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 164083630.088
+size 924
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 262.826
+old_speed 3248.443
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 161182702.071
+size 925
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 263.083
+old_speed 3252.305
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 167902655.563
+size 926
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 263.203
+old_speed 3257.845
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 167771377.371
+size 927
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 264.022
+old_speed 3254.765
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 169861306.471
+size 928
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 263.951
+old_speed 3262.670
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.006
+new_speed 154553399.338
+size 929
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 264.898
+old_speed 3258.016
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 161133154.617
+size 930
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 265.971
+old_speed 3251.864
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 161300734.976
+size 931
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 266.557
+old_speed 3251.689
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 167973900.538
+size 932
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 267.590
+old_speed 3246.098
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 162146651.729
+size 933
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 267.550
+old_speed 3253.554
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 163777665.395
+size 934
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 268.320
+old_speed 3251.181
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 163607863.541
+size 935
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 270.339
+old_speed 3233.815
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 167478095.113
+size 936
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 269.881
+old_speed 3246.228
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 163055243.042
+size 937
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 269.952
+old_speed 3252.312
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 163527194.306
+size 938
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 271.029
+old_speed 3246.307
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.005
+new_speed 161079581.343
+size 939
+Opening /data/bigchem/data/example50K.h5 in read-only mode
+old_time 361.951
+old_speed 2436.021
+Opening /data/bigchem/data/example50K-hex.h5 in read-only mode
+new_time 0.280
+new_speed 3149250.598
+size 940
+Opening /data/bigchem/data/example50K.h5 in read-only mode

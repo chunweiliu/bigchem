@@ -74,7 +74,7 @@ def fphex2int64(x, length):
 
 if __name__ == "__main__":
 #    old_out = old_method(0, 500, 0, 500)
-    new_out = new_method(0, 50000, 0, 50000)
+    new_out = new_method(0, 5000, 0, 5000)
     similarity_bound = 0.0001
     sys.exit(0)
     print "Comparing", len(old_out), "results"
