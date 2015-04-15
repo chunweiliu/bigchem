@@ -140,7 +140,7 @@ def GPUtanimoto(query, target, cutoff=0, count=None):
                 # k*query_lenght + j
                 #    k -----
                 # j
-                item = (i * len(output) + j * len(matrix) + k, element))
+                item = (i * len(output) + j * len(matrix) + k, element)
                 heapq.push(formatted_output, item)
             #endfor
         #endfor
