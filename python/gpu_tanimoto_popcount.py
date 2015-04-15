@@ -5,6 +5,7 @@ import pycuda.autoinit
 
 import numpy as np
 import time
+import heapq
 
 """
 The CUDA kernel and subroutines for computing the
@@ -131,6 +132,7 @@ def GPUtanimoto(query, target, cutoff=0, count=None):
 
     #format output
     formatted_output = []
+    heapq.heapify(formatted_output)
 
     for i, matrix in enumerate(output):
         for j, row in enumerate(matrix):
@@ -138,9 +140,8 @@ def GPUtanimoto(query, target, cutoff=0, count=None):
                 # k*query_lenght + j
                 #    k -----
                 # j
-                formatted_output.append((i * len(output) + j * len(matrix) + k,
-                                        element))
-                #add_to_max_heap(element)
+                item = (i * len(output) + j * len(matrix) + k, element))
+                heapq.push(formatted_output, item)
             #endfor
         #endfor
     #endfor
