@@ -1,11 +1,10 @@
+from pycuda.compiler import SourceModule
+
 import pycuda.driver as drv
 import pycuda.autoinit
+
 import numpy as np
 import time
-import pandas as pd
-
-from operator import itemgetter
-from pycuda.compiler import SourceModule
 
 """
 The CUDA kernel and subroutines for computing the
@@ -15,7 +14,7 @@ funct = cuda_popcount.get_function("tanimoto_popcount")
 """
 cuda_popcount = SourceModule("""
   __device__ float similarity(unsigned long long *query,
-                               unsigned long long *target, int data_len) {
+                              unsigned long long *target, int data_len) {
     int a = 0, b = 0, c = 0;
     for (int i = 0; i < data_len; i++) {
       a += __popcll(query[i]);
@@ -42,31 +41,29 @@ cuda_popcount = SourceModule("""
   }
 """)
 
+
 def GPUtanimoto(query, target, cutoff=0, count=None):
     """
-    Returns the pairwise similarity between query and
-    target as a list of tuples. Each tuple is (index,
-    similarity) where index is the location in the 2d
-    matrix: query X target.
+    Returns the pairwise similarity between query and target as a list of
+    tuples. Each tuple is (index, similarity) where index is the location
+    in the 2d matrix: query X target.
 
     == PARAMETERS ==
-    @param query: A matrix of np.uint64. Rows represent
-    individual molecules. Columns represent 64-bit chunks
-    of their bit string representations.
+    @param query: A matrix of np.uint64. Rows represent individual molecules.
+    Columns represent 64-bit chunks of their bit string representations.
 
-    @param target: A matrix of np.uint64. Rows represent
-    individual molecules. Columns represent 64-bit chunks
-    of their bit string representations.
+    @param target: A matrix of np.uint64. Rows represent individual molecules.
+    Columns represent 64-bit chunks of their bit string representations.
 
-    @param cutoff: A np.float32 that specifies a value
-    below which individual similarity computation results
-    should be omitted from the final set. (optional)
+    @param cutoff: A np.float32 that specifies a value below which individual
+    similarity computation results should be omitted from the final set.
+    (optional)
 
-    @param count: An integer that specifies that size of
-    the output set. (optional)
+    @param count: An integer that specifies that size of the output set.
+    (optional)
     """
     # Make sure that the inputs are properly formatted
-    if (len(query) == 0 or len(target) == 0):
+    if len(query) == 0 or len(target) == 0:
         return []
     # We need to properly format the input as uint64 matrices
     query = query.astype(np.uint64)
@@ -107,7 +104,10 @@ def GPUtanimoto(query, target, cutoff=0, count=None):
                     else:
                         query_in = query[k:k + query_size]
 
-                    tanimoto(drv.In(query_in), np.int32(len(query_in)), drv.In(target_in), np.int32(len(target_in)), np.int32(len(query_in[0])), drv.Out(dest_in), block=bdim, grid=gdim)
+                    tanimoto(drv.In(query_in), np.int32(len(query_in)),
+                             drv.In(target_in), np.int32(len(target_in)),
+                             np.int32(len(query_in[0])), drv.Out(dest_in),
+                             block=bdim, grid=gdim)
                     not_enough_memory = False
                     output.append(dest_in)
                     k = k + target_size
@@ -130,11 +130,16 @@ def GPUtanimoto(query, target, cutoff=0, count=None):
     #endwhile
 
     #format output
-    formatted_output = [];
-    for matrix in output:
-        for row in matrix:
-            for element in row:
-                formatted_output.append(('we need to compute index', element));
+    formatted_output = []
+
+    for i, matrix in enumerate(output):
+        for j, row in enumerate(matrix):
+            for k, element in enumerate(row):
+                # k*query_lenght + j
+                #    k -----
+                # j
+                formatted_output.append((i * len(output) + j * len(matrix) + k,
+                                        element))
                 #add_to_max_heap(element)
             #endfor
         #endfor
