@@ -72,7 +72,7 @@ def GPUtanimoto(query, target, cutoff=0, output_path="similarity_matrix"):
     """
     # Make sure that the inputs are properly formatted
     if len(query) == 0 or len(target) == 0:
-        return []
+        raise ValueError("Error, input must be of nonzero length.")
     # We need to properly format the input as uint64 matrices
     print("Convert inputs to np.uint64s", file=sys.stderr)
     query = query.astype(np.uint64)
@@ -87,6 +87,7 @@ def GPUtanimoto(query, target, cutoff=0, output_path="similarity_matrix"):
     # Loop, reducing memory size until we can fit the target_idxob on the GPU
     not_enough_memory = True
     blocks_written = 0
+    output_file = open(output_path + '.npy', 'a+b')
     print("Attempting to execute on GPU. Looking for right memory size...", file=sys.stderr)
     while not_enough_memory:
         # Output array
@@ -102,7 +103,7 @@ def GPUtanimoto(query, target, cutoff=0, output_path="similarity_matrix"):
             target_idx = 0
             while target_idx < len(target):
                 query_idx = 0
-                print("Trying input of size ", query_size, "x", target_size, file=sys.stderr)
+                print("Trying input of size", query_size, "x", target_size, file=sys.stderr)
                 if (target_idx + target_size > len(target)):
                     target_in = target[target_idx:len(target)]
                 else:
@@ -117,9 +118,9 @@ def GPUtanimoto(query, target, cutoff=0, output_path="similarity_matrix"):
                              drv.In(target_in), np.int32(len(target_in)),
                              np.int32(len(query_in[0])), np.float32(cutoff), drv.Out(dest_in),
                              block=bdim, grid=gdim)
-                    print("Success: done with chunk: ", blocks_written, file=sys.stderr)
+                    print("Success: done with chunk:", blocks_written, file=sys.stderr)
                     not_enough_memory = False
-                    np.save(output_path + "_" + str(target_idx) + "_" + str(query_idx), dest_in)
+                    np.save(output_file, dest_in)
                     blocks_written += 1
                     query_idx = query_idx + target_size
                 #endwhile
@@ -133,13 +134,12 @@ def GPUtanimoto(query, target, cutoff=0, output_path="similarity_matrix"):
             else:
                 query_size = query_size / 2
                 if (query_size == 0):
-                    print("Unable to allocate memory", file=sys.stderr)
-                    sys.exit(1)
+                    raise MemoryError("Unable to allocate memory. GPU is out of memory.")
                 #endif
             #endif
         #endtry
     #endwhile
-
+    output_file.close()
     total_time = time.time() - start_time
     print("new_time %.3f" % total_time)
     print("new_speed %.3f" % ((len(query)*len(target))/total_time))
