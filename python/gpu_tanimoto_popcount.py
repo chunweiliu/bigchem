@@ -7,9 +7,8 @@ import numpy as np
 import time
 
 """
-The CUDA kernel and subroutines for computing the
-tanimoto similarity. Prepare this variable to be
-used as a function by calling:
+The CUDA kernel and subroutines for computing the tanimoto similarity.
+Prepare this variable to be used as a function by calling:
 funct = cuda_popcount.get_function("tanimoto_popcount")
 """
 cuda_popcount = SourceModule("""
