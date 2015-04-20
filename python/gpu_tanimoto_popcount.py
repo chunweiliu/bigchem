@@ -14,8 +14,10 @@ funct = cuda_popcount.get_function("tanimoto_popcount")
 """
 cuda_popcount = SourceModule("""
   __device__ float similarity(unsigned long long *query,
-                              unsigned long long *target, int data_len) {
+                              unsigned long long *target, int data_len,
+                              float cutoff) {
     int a = 0, b = 0, c = 0;
+    float result;
     for (int i = 0; i < data_len; i++) {
       a += __popcll(query[i]);
       b += __popcll(target[i]);
@@ -25,18 +27,22 @@ cuda_popcount = SourceModule("""
       return 1.0f;
     }
     else {
-      return (float) c / (a + b - c);
+      result = (float) c / (a + b - c);
+      if (result < cutoff) {
+        result = 0;
+      }
     }
+    return result;
   }
 
   __global__ void tanimoto_popcount(unsigned long long *query, int query_len,
                                     unsigned long long *target, int target_len,
-                                    int data_len, float *out) {
+                                    int data_len, float cutoff, float *out) {
     int idx = blockDim.x * blockIdx.x + threadIdx.x;
     int idy = blockDim.y * blockIdx.y + threadIdx.y;
     if (idy < query_len && idx < target_len) {
       out[idy + idx * query_len] =
-      similarity(&query[idy * data_len], &target[idx * data_len], data_len);
+      similarity(&query[idy * data_len], &target[idx * data_len], data_len, cutoff);
     }
   }
 """)
@@ -66,6 +72,7 @@ def GPUtanimoto(query, target, cutoff=0, count=None):
     if len(query) == 0 or len(target) == 0:
         return []
     # We need to properly format the input as uint64 matrices
+    print("convert inputs")
     query = query.astype(np.uint64)
     target = target.astype(np.uint64)
     tanimoto = cuda_popcount.get_function("tanimoto_popcount")
@@ -76,10 +83,9 @@ def GPUtanimoto(query, target, cutoff=0, count=None):
     threads_per_block = 32  # constant dependent on hardware
 
     # List for gathering the output
-    output = []
-
     not_enough_memory = True
     # Loop, reducing memory size until we can fit the job on the GPU
+    print("looking for right memory size...")
     while not_enough_memory:
         # Output array
         dest_in = np.zeros((target_size, query_size), dtype=np.float32)
@@ -94,6 +100,7 @@ def GPUtanimoto(query, target, cutoff=0, count=None):
             j = 0
             while j < len(target):
                 k = 0
+                print("trying size", query_size, target_size)
                 if (j + target_size > len(target)):
                     target_in = target[j:len(target)]
                 else:
@@ -106,10 +113,14 @@ def GPUtanimoto(query, target, cutoff=0, count=None):
 
                     tanimoto(drv.In(query_in), np.int32(len(query_in)),
                              drv.In(target_in), np.int32(len(target_in)),
-                             np.int32(len(query_in[0])), drv.Out(dest_in),
+                             np.int32(len(query_in[0])), np.float32(cutoff), drv.Out(dest_in),
                              block=bdim, grid=gdim)
+                    print("done with chunk")
                     not_enough_memory = False
-                    output.append(dest_in)
+                    if (count is not None):
+                        # append to k-largest-heap or some way to keep track of k-largest
+                    else:
+                        np.save("similarity_matrix_" + str(j) + "_" + str(k), dest_in)
                     k = k + target_size
                 #endwhile
                 j = j + query_size
@@ -128,22 +139,6 @@ def GPUtanimoto(query, target, cutoff=0, count=None):
             #endif
         #endtry
     #endwhile
-
-    #format output
-    formatted_output = []
-
-    for i, matrix in enumerate(output):
-        for j, row in enumerate(matrix):
-            for k, element in enumerate(row):
-                # k*query_lenght + j
-                #    k -----
-                # j
-                formatted_output.append((i * len(output) + j * len(matrix) + k,
-                                        element))
-                #add_to_max_heap(element)
-            #endfor
-        #endfor
-    #endfor
 
     total_time = time.time() - start_time
     print "new_time %.3f" % total_time

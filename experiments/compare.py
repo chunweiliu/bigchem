@@ -3,8 +3,8 @@ sys.path.append('/home/vancemiller/github/bigchem/python')
 import time, numpy as np, pandas as pd, bitstring, itertools
 from rdkit import Chem
 from gpu_tanimoto_popcount import GPUtanimoto
-old_data = '/data/bigchem/data/example50K.h5'
-new_data = '/data/bigchem/data/example50K-hex.h5'
+old_data = '/data/bigchem/data/example1M.h5'
+new_data = '/data/bigchem/data/example1M-hex.h5'
 
 def old_method(begin_query, end_query, begin_target, end_target):
     store = pd.HDFStore(old_data, )
@@ -49,16 +49,17 @@ def new_method(begin_query, end_query, begin_target, end_target):
     if (len(query) < (end_query - begin_query) or len(target) < (end_target - begin_target)):
         print("Warning: did not read all requested entries.")
 
+    print("converting...")
     query_fp = np.empty((end_query - begin_query, N), dtype=np.uint64)
     query_fp = query['RDK5FPhex'].apply(lambda x: fphex2int64(x, N))
     target_fp = np.empty((end_target - begin_target, N), dtype=np.uint64)
     target_fp = target['RDK5FPhex'].apply(lambda x: fphex2int64(x, N))
-
+    print("reshaping...")
     query_list = list(itertools.chain.from_iterable(query_fp.values))
     target_list = list(itertools.chain.from_iterable(target_fp.values))
     merged_query = np.reshape(query_list, (end_query - begin_query, N))
     merged_target = np.reshape(target_list, (end_target - begin_target, N))
-
+    print("computing similarity...")
     similarity = GPUtanimoto(merged_query, merged_target)
 
     return similarity
@@ -74,7 +75,7 @@ def fphex2int64(x, length):
 
 if __name__ == "__main__":
 #    old_out = old_method(0, 500, 0, 500)
-    new_out = new_method(0, 5000, 0, 5000)
+    new_out = new_method(0, 100000, 0, 100000)
     similarity_bound = 0.0001
     sys.exit(0)
     print "Comparing", len(old_out), "results"

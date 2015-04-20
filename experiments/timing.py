@@ -71,7 +71,7 @@ def fphex2int64(x, length):
 
 
 if __name__ == "__main__":
-    for size in range(5000):
+    for size in range(5000, step=1000):
         print 'size', size
         old_out = old_method(0, size, 0, size)
         new_out = new_method(0, size, 0, size)
