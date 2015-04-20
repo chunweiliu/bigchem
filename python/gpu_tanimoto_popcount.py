@@ -1,10 +1,10 @@
+from __future__ import print_function
 from pycuda.compiler import SourceModule
-
 import pycuda.driver as drv
 import pycuda.autoinit
 
 import numpy as np
-import time
+import time, sys
 
 """
 The CUDA kernel and subroutines for computing the tanimoto similarity.
@@ -47,7 +47,7 @@ cuda_popcount = SourceModule("""
 """)
 
 
-def GPUtanimoto(query, target, cutoff=0, count=None):
+def GPUtanimoto(query, target, cutoff=0, output_path="similarity_matrix"):
     """
     Returns the pairwise similarity between query and target as a list of
     tuples. Each tuple is (index, similarity) where index is the location
@@ -61,17 +61,20 @@ def GPUtanimoto(query, target, cutoff=0, count=None):
     Columns represent 64-bit chunks of their bit string representations.
 
     @param cutoff: A np.float32 that specifies a value below which individual
-    similarity computation results should be omitted from the final set.
-    (optional)
+    similarity computation results should be set to zero. (optional)
 
-    @param count: An integer that specifies that size of the output set.
-    (optional)
+    @param output_path: Output will be written to .npy files under this path
+    (includes file name). If the input is too large to fit in memory, multiple
+    files will be created. If multiple files are created, they will have the
+    index of the first entry of the block (target, query) appended to their name.
+    Default output path is "./similarity_matrix" and files will be written as
+    similarity_matrix_0_0.npy. (optional)
     """
     # Make sure that the inputs are properly formatted
     if len(query) == 0 or len(target) == 0:
         return []
     # We need to properly format the input as uint64 matrices
-    print("convert inputs")
+    print("Convert inputs to np.uint64s", file=sys.stderr)
     query = query.astype(np.uint64)
     target = target.astype(np.uint64)
     tanimoto = cuda_popcount.get_function("tanimoto_popcount")
@@ -81,10 +84,10 @@ def GPUtanimoto(query, target, cutoff=0, count=None):
     target_size = len(target)
     threads_per_block = 32  # constant dependent on hardware
 
-    # List for gathering the output
+    # Loop, reducing memory size until we can fit the target_idxob on the GPU
     not_enough_memory = True
-    # Loop, reducing memory size until we can fit the job on the GPU
-    print("looking for right memory size...")
+    blocks_written = 0
+    print("Attempting to execute on GPU. Looking for right memory size...", file=sys.stderr)
     while not_enough_memory:
         # Output array
         dest_in = np.zeros((target_size, query_size), dtype=np.float32)
@@ -96,43 +99,41 @@ def GPUtanimoto(query, target, cutoff=0, count=None):
         # Call the CUDA
         start_time = time.time()
         try:
-            j = 0
-            while j < len(target):
-                k = 0
-                print("trying size", query_size, target_size)
-                if (j + target_size > len(target)):
-                    target_in = target[j:len(target)]
+            target_idx = 0
+            while target_idx < len(target):
+                query_idx = 0
+                print("Trying input of size ", query_size, "x", target_size, file=sys.stderr)
+                if (target_idx + target_size > len(target)):
+                    target_in = target[target_idx:len(target)]
                 else:
-                    target_in = target[j:j + target_size]
-                while k < len(query):
-                    if (k + query_size > len(query)):
-                        query_in = query[k:len(query)]
+                    target_in = target[target_idx:target_idx + target_size]
+                while query_idx < len(query):
+                    if (query_idx + query_size > len(query)):
+                        query_in = query[query_idx:len(query)]
                     else:
-                        query_in = query[k:k + query_size]
+                        query_in = query[query_idx:query_idx + query_size]
 
                     tanimoto(drv.In(query_in), np.int32(len(query_in)),
                              drv.In(target_in), np.int32(len(target_in)),
                              np.int32(len(query_in[0])), np.float32(cutoff), drv.Out(dest_in),
                              block=bdim, grid=gdim)
-                    print("done with chunk")
+                    print("Success: done with chunk: ", blocks_written, file=sys.stderr)
                     not_enough_memory = False
-                    if (count is not None):
-                        # append to k-largest-heap or some way to keep track of k-largest
-                    else:
-                        np.save("similarity_matrix_" + str(j) + "_" + str(k), dest_in)
-                    k = k + target_size
+                    np.save(output_path + "_" + str(target_idx) + "_" + str(query_idx), dest_in)
+                    blocks_written += 1
+                    query_idx = query_idx + target_size
                 #endwhile
-                j = j + query_size
+                target_idx = target_idx + query_size
             #endwhile
         except pycuda._driver.MemoryError:
-            # We could not fit the job on the GPU.
+            # We could not fit the target_idxob on the GPU.
             # Reduce memory requirements:
             if (target_size > 1):
                 target_size = target_size / 2
             else:
                 query_size = query_size / 2
                 if (query_size == 0):
-                    print "Unable to allocate memory"
+                    print("Unable to allocate memory", file=sys.stderr)
                     sys.exit(1)
                 #endif
             #endif
@@ -140,28 +141,8 @@ def GPUtanimoto(query, target, cutoff=0, count=None):
     #endwhile
 
     total_time = time.time() - start_time
-    print "new_time %.3f" % total_time
-    print "new_speed %.3f" % ((len(query)*len(target))/total_time)
+    print("new_time %.3f" % total_time)
+    print("new_speed %.3f" % ((len(query)*len(target))/total_time))
 
-    return formatted_output
+    return (target_size, query_size, blocks_written, output_path)
 
-if __name__ == "__main__":
-
-    query_range = range(2**0, 8)
-    target_range = range(2**0, 4)
-
-    query = np.array([[x for x in range(y, y + 16)] for y in query_range],
-                     np.uint64)
-    target = np.array([[x for x in range(y, y + 16)] for y in target_range],
-                      np.uint64)
-
-    # query = np.array([[0xFFF], [0x111], [0x222]]);
-    # target = query;
-
-    print("Input query:\n" + str(query))
-    print("Number of queries: " + str(len(query)))
-    print("Target data:\n" + str(target))
-    print("Number of targets: " + str(len(target)))
-    print("Data length: " + str(len(query[0])))
-
-    output = GPUtanimoto(query, target)
