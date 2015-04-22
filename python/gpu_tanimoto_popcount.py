@@ -123,6 +123,7 @@ def GPUtanimoto(query, target, cutoff=0, output_path="similarity_matrix"):
                              block=bdim, grid=gdim)
                     print("Success: done with chunk:", blocks_written, file=sys.stderr)
                     not_enough_memory = False
+                    output_file.seek(0, 2)
                     np.save(output_file, dest_in)
                     blocks_written += 1
                     query_idx = query_idx + target_size
