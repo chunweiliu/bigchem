@@ -47,7 +47,7 @@ cuda_popcount = SourceModule("""
 """)
 
 
-def GPUtanimoto(query, target, cutoff=0, output_path="similarity_matrix"):
+def GPUtanimoto(target, query, cutoff=0, output_path="similarity_matrix.npy"):
     """
     Returns the pairwise similarity between query and target as a list of
     tuples. Each tuple is (index, similarity) where index is the location
@@ -68,7 +68,7 @@ def GPUtanimoto(query, target, cutoff=0, output_path="similarity_matrix"):
     files will be created. If multiple files are created, they will have the
     index of the first entry of the block (target, query) appended to their name.
     Default output path is "./similarity_matrix" and files will be written as
-    similarity_matrix_0_0.npy. (optional)
+    similarity_matrix_[idx]_[idy].npy. (optional)
     """
     # Make sure that the inputs are properly formatted
     if len(query) == 0 or len(target) == 0:
@@ -87,7 +87,6 @@ def GPUtanimoto(query, target, cutoff=0, output_path="similarity_matrix"):
     # Loop, reducing memory size until we can fit the target_idxob on the GPU
     not_enough_memory = True
     blocks_written = 0
-    output_file = open(output_path + '.npy', 'a+b')
     print("Attempting to execute on GPU. Looking for right memory size...", file=sys.stderr)
     while not_enough_memory:
         # Output array
@@ -120,8 +119,7 @@ def GPUtanimoto(query, target, cutoff=0, output_path="similarity_matrix"):
                              block=bdim, grid=gdim)
                     print("Success: done with chunk:", blocks_written, file=sys.stderr)
                     not_enough_memory = False
-                    output_file.seek(0, 2)
-                    np.save(output_file, dest_in)
+                    np.save(output_path + "_" + str(target_idx) + "_" + str(query_idx), dest_in)
                     blocks_written += 1
                     query_idx = query_idx + target_size
                 #endwhile
@@ -140,7 +138,6 @@ def GPUtanimoto(query, target, cutoff=0, output_path="similarity_matrix"):
             #endif
         #endtry
     #endwhile
-    output_file.close()
     total_time = time.time() - start_time
     print("new_time %.3f" % total_time)
     print("new_speed %.3f" % ((len(query)*len(target))/total_time))
