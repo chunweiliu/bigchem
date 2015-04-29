@@ -49,7 +49,7 @@ cuda_popcount = SourceModule("""
 """)
 
 
-def GPUtanimoto(target, query, cutoff=0, output_path="similarity_matrix.npy"):
+def GPUtanimoto(query, target, cutoff=0, output_path="similarity_matrix"):
     """
     Returns the pairwise similarity between query and target as a list of
     tuples. Each tuple is (index, similarity) where index is the location
@@ -71,79 +71,89 @@ def GPUtanimoto(target, query, cutoff=0, output_path="similarity_matrix.npy"):
     index of the first entry of the block (target, query) appended to their
     name.
     Default output path is "./similarity_matrix" and files will be written as
-    similarity_matrix_[idx]_[idy].npy. (optional)
+    similarity_matrix_0_0.npy. (optional)
     """
+
     # Make sure that the inputs are properly formatted
     if len(query) == 0 or len(target) == 0:
         raise ValueError("Error, input must be of nonzero length.")
+
     # We need to properly format the input as uint64 matrices
     print("Convert inputs to np.uint64s", file=sys.stderr)
     query = query.astype(np.uint64)
     target = target.astype(np.uint64)
-    tanimoto = cuda_popcount.get_function("tanimoto_popcount")
 
     # CUDA kernel size parameters
     query_size = len(query)
     target_size = len(target)
-    threads_per_block = 32  # constant dependent on hardware
+    THREADS_PER_BLOCK = 32  # constant dependent on hardware
+
+    tanimoto = cuda_popcount.get_function("tanimoto_popcount")
 
     # Loop, reducing memory size until we can fit the target_idxob on the GPU
     not_enough_memory = True
     blocks_written = 0
-    print("Attempting to execute on GPU. Looking for right memory size...", file=sys.stderr)
+    output_file = open(output_path + '.npy', 'a+b')
+    print("Attempting to execute on GPU. Looking for right memory size...",
+          file=sys.stderr)
     while not_enough_memory:
         # Output array
-        dest_in = np.zeros((target_size, query_size), dtype=np.float32)
+        dest_in = np.zeros((query_size, target_size), dtype=np.float32)
+
         # Determine the block and grid sizes
-        dx, mx = divmod(len(target), threads_per_block)
-        dy, my = divmod(len(query), threads_per_block)
-        bdim = (threads_per_block, threads_per_block, 1)
+        dx, mx = divmod(len(query), THREADS_PER_BLOCK)
+        dy, my = divmod(len(target), THREADS_PER_BLOCK)
+        bdim = (THREADS_PER_BLOCK, THREADS_PER_BLOCK, 1)
         gdim = ((dx + (mx > 0)), (dy + (my > 0)))
         # Call the CUDA
         start_time = time.time()
         try:
-            target_idx = 0
-            while target_idx < len(target):
-                query_idx = 0
-                print("Trying input of size", query_size, "x", target_size, file=sys.stderr)
-                if (target_idx + target_size > len(target)):
-                    target_in = target[target_idx:len(target)]
+            query_idx = 0
+            while query_idx < len(query):
+                target_idx = 0
+                print("Trying input of size", query_size, "x", target_size,
+                      file=sys.stderr)
+                if (query_idx + query_size > len(query)):
+                    query_in = query[query_idx:len(query)]
                 else:
-                    target_in = target[target_idx:target_idx + target_size]
-                while query_idx < len(query):
-                    if (query_idx + query_size > len(query)):
-                        query_in = query[query_idx:len(query)]
+                    query_in = query[query_idx:query_idx + query_size]
+                while target_idx < len(target):
+                    if (target_idx + target_size > len(target)):
+                        target_in = target[target_idx:len(target)]
                     else:
-                        query_in = query[query_idx:query_idx + query_size]
+                        target_in = target[target_idx:target_idx + target_size]
 
-                    tanimoto(drv.In(query_in), np.int32(len(query_in)),
-                             drv.In(target_in), np.int32(len(target_in)),
-                             np.int32(len(query_in[0])), np.float32(cutoff), drv.Out(dest_in),
+                    tanimoto(drv.In(target_in), np.int32(len(target_in)),
+                             drv.In(query_in), np.int32(len(query_in)),
+                             np.int32(len(target_in[0])), np.float32(cutoff),
+                             drv.Out(dest_in),
                              block=bdim, grid=gdim)
-                    print("Success: done with chunk:", blocks_written, file=sys.stderr)
+                    print("Success: done with chunk:", blocks_written,
+                          file=sys.stderr)
                     not_enough_memory = False
-                    np.save(output_path + "_" + str(target_idx) + "_" + str(query_idx), dest_in)
+                    np.save(output_file, dest_in)
                     blocks_written += 1
-                    query_idx = query_idx + target_size
+                    target_idx = target_idx + query_size
                 #endwhile
-                target_idx = target_idx + query_size
+                query_idx = query_idx + target_size
             #endwhile
         except pycuda._driver.MemoryError:
-            # We could not fit the target_idxob on the GPU.
+            # We could not fit the query_idxob on the GPU.
             # Reduce memory requirements:
-            if (target_size > 1):
-                target_size = target_size / 2
-            else:
+            if (query_size > 1):
                 query_size = query_size / 2
-                if (query_size == 0):
-                    raise MemoryError("Unable to allocate memory. GPU is out of memory.")
+            else:
+                target_size = target_size / 2
+                if (target_size == 0):
+                    raise MemoryError("Unable to allocate memory." +
+                                      "GPU is out of memory.")
                 #endif
             #endif
         #endtry
     #endwhile
+    output_file.close()
     total_time = time.time() - start_time
     print("new_time %.3f" % total_time)
-    print("new_speed %.3f" % ((len(query)*len(target))/total_time))
+    print("new_speed %.3f" % ((len(target)*len(query))/total_time))
 
-    return (target_size, query_size, blocks_written, output_path)
-
+    return (query_size, target_size, blocks_written, output_path)
