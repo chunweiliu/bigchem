@@ -23,6 +23,6 @@ To test that all the modules are working, run `demo.py` in the demo directory. T
 Input molecules are formatted into their bitstring representations. For an example, see demo/bitstring-hex-encode.py
 
 # Results
-In sum, we made the speed improve by 5 in log scale
+In sum, we made the speed improve by 5 in log scale in our benchmark.
 ![images/speed.png](images/speed.png)
 ![images/time.png](images/time.png)
